@@ -1,0 +1,54 @@
+@import "map";
+@import "mixins";
+
+/// material design social icon classes
+/// @access public
+@mixin md-social-icons(){
+        @font-face {
+                font-family: 'md-social';
+                src:    url('fonts/md-social.eot?jnh067');
+                src:    url('fonts/md-social.eot?jnh067#iefix') format('embedded-opentype'),
+                url('fonts/md-social.ttf?jnh067') format('truetype'),
+                url('fonts/md-social.woff?jnh067') format('woff'),
+                url('fonts/md-social.svg?jnh067#md-social') format('svg');
+                font-weight: normal;
+                font-style: normal;
+        }
+
+        [class^="icon-md-social"], [class*=" icon-md-social"] {
+                /* use !important to prevent issues with browser extensions that change fonts */
+                font-family: 'md-social' !important;
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+
+                /* Better Font Rendering =========== */
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-md-social-dropbox:before {
+                content: "\e900";
+        }
+        .icon-md-social-facebook:before {
+                content: "\e901";
+        }
+        .icon-md-social-google:before {
+                content: "\e902";
+        }
+        .icon-md-social-instagram:before {
+                content: "\e903";
+        }
+        .icon-md-social-pinterest:before {
+                content: "\e904";
+        }
+        .icon-md-social-twitter:before {
+                content: "\e905";
+        }
+
+}
+
+

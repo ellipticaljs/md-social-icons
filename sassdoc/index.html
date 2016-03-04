@@ -1,0 +1,3081 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Material-design-icons - v1.0.0</title><link rel="stylesheet" href="assets/css/main.css"><link href="http://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><!-- Open Graph tags --><meta property="og:title" content="Material-design-icons - SassDoc"><meta property="og:type" content="website"><meta property="og:description" content="<p>Material Design Icons</p>
+"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title">Material-design-icons - 1.0.0</h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="undefined"><a href="#undefined">General</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-mixin"><a href="#undefined-mixin">mixins</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="md-icons" data-type="mixin"><a href="#mixin-md-icons">md-icons</a></li><li class="sidebar__item sassdoc__item" data-name="material-icon-sizes" data-type="mixin"><a href="#mixin-material-icon-sizes">material-icon-sizes</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-variable"><a href="#undefined-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-name="MD-Icons" data-type="variable"><a href="#variable-MD-Icons">MD-Icons</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="undefined"><div class="container">General</div></h1><section class="main__sub-section" id="undefined-mixin"><h2 class="main__heading--secondary"><div class="container">mixins</div></h2><section class="main__item container item" id="mixin-md-icons"><h3 class="item__heading"><a class="item__name" href="#mixin-md-icons">md-icons</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin md-icons() { 
+        @font-face {
+                font-family: &#39;material&#39;;
+                src:url(&#39;fonts/material.eot?wm5rft&#39;);
+                src:url(&#39;fonts/material.eot?#iefixwm5rft&#39;) format(&#39;embedded-opentype&#39;),
+                url(&#39;fonts/material.ttf?wm5rft&#39;) format(&#39;truetype&#39;),
+                url(&#39;fonts/material.woff?wm5rft&#39;) format(&#39;woff&#39;),
+                url(&#39;fonts/material.svg?wm5rft#material&#39;) format(&#39;svg&#39;);
+                font-weight: normal;
+                font-style: normal;
+        }
+
+        [class^=&quot;icon-&quot;], [class*=&quot; icon-&quot;] {
+                font-family: &#39;material&#39;;
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                font-size:24px;
+
+                /* Better Font Rendering =========== */
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-3d-rotation:before {
+                content: &quot;\e600&quot;;
+        }
+        .icon-accessibility:before {
+                content: &quot;\e601&quot;;
+        }
+        .icon-account-balance:before {
+                content: &quot;\e602&quot;;
+        }
+        .icon-account-balance-wallet:before {
+                content: &quot;\e603&quot;;
+        }
+        .icon-account-box:before {
+                content: &quot;\e604&quot;;
+        }
+        .icon-account-child:before {
+                content: &quot;\e605&quot;;
+        }
+        .icon-account-circle:before {
+                content: &quot;\e606&quot;;
+        }
+        .icon-add-shopping-cart:before {
+                content: &quot;\e607&quot;;
+        }
+        .icon-alarm:before {
+                content: &quot;\e608&quot;;
+        }
+        .icon-alarm-add:before {
+                content: &quot;\e609&quot;;
+        }
+        .icon-alarm-off:before {
+                content: &quot;\e60a&quot;;
+        }
+        .icon-alarm-on:before {
+                content: &quot;\e60b&quot;;
+        }
+        .icon-android:before {
+                content: &quot;\e60c&quot;;
+        }
+        .icon-announcement:before {
+                content: &quot;\e60d&quot;;
+        }
+        .icon-aspect-ratio:before {
+                content: &quot;\e60e&quot;;
+        }
+        .icon-assessment:before {
+                content: &quot;\e60f&quot;;
+        }
+        .icon-assignment:before {
+                content: &quot;\e610&quot;;
+        }
+        .icon-assignment-ind:before {
+                content: &quot;\e611&quot;;
+        }
+        .icon-assignment-late:before {
+                content: &quot;\e612&quot;;
+        }
+        .icon-assignment-return:before {
+                content: &quot;\e613&quot;;
+        }
+        .icon-assignment-returned:before {
+                content: &quot;\e614&quot;;
+        }
+        .icon-assignment-turned-in:before {
+                content: &quot;\e615&quot;;
+        }
+        .icon-autorenew:before {
+                content: &quot;\e616&quot;;
+        }
+        .icon-backup:before {
+                content: &quot;\e617&quot;;
+        }
+        .icon-book:before {
+                content: &quot;\e618&quot;;
+        }
+        .icon-bookmark:before {
+                content: &quot;\e619&quot;;
+        }
+        .icon-bookmark-outline:before {
+                content: &quot;\e61a&quot;;
+        }
+        .icon-bug-report:before {
+                content: &quot;\e61b&quot;;
+        }
+        .icon-cached:before {
+                content: &quot;\e61c&quot;;
+        }
+        .icon-class:before {
+                content: &quot;\e61d&quot;;
+        }
+        .icon-credit-card:before {
+                content: &quot;\e61e&quot;;
+        }
+        .icon-dashboard:before {
+                content: &quot;\e61f&quot;;
+        }
+        .icon-delete:before {
+                content: &quot;\e620&quot;;
+        }
+        .icon-description:before {
+                content: &quot;\e621&quot;;
+        }
+        .icon-dns:before {
+                content: &quot;\e622&quot;;
+        }
+        .icon-done:before {
+                content: &quot;\e623&quot;;
+        }
+        .icon-done-all:before {
+                content: &quot;\e624&quot;;
+        }
+        .icon-event:before {
+                content: &quot;\e625&quot;;
+        }
+        .icon-exit-to-app:before {
+                content: &quot;\e626&quot;;
+        }
+        .icon-explore:before {
+                content: &quot;\e627&quot;;
+        }
+        .icon-extension:before {
+                content: &quot;\e628&quot;;
+        }
+        .icon-face-unlock:before {
+                content: &quot;\e629&quot;;
+        }
+        .icon-favorite:before {
+                content: &quot;\e62a&quot;;
+        }
+        .icon-favorite-outline:before {
+                content: &quot;\e62b&quot;;
+        }
+        .icon-find-in-page:before {
+                content: &quot;\e62c&quot;;
+        }
+        .icon-find-replace:before {
+                content: &quot;\e62d&quot;;
+        }
+        .icon-flip-to-back:before {
+                content: &quot;\e62e&quot;;
+        }
+        .icon-flip-to-front:before {
+                content: &quot;\e62f&quot;;
+        }
+        .icon-get-app:before {
+                content: &quot;\e630&quot;;
+        }
+        .icon-grade:before {
+                content: &quot;\e631&quot;;
+        }
+        .icon-group-work:before {
+                content: &quot;\e632&quot;;
+        }
+        .icon-help:before {
+                content: &quot;\e633&quot;;
+        }
+        .icon-highlight-remove:before {
+                content: &quot;\e634&quot;;
+        }
+        .icon-history:before {
+                content: &quot;\e635&quot;;
+        }
+        .icon-home:before {
+                content: &quot;\e636&quot;;
+        }
+        .icon-https:before {
+                content: &quot;\e637&quot;;
+        }
+        .icon-info:before {
+                content: &quot;\e638&quot;;
+        }
+        .icon-info-outline:before {
+                content: &quot;\e639&quot;;
+        }
+        .icon-input:before {
+                content: &quot;\e63a&quot;;
+        }
+        .icon-invert-colors:before {
+                content: &quot;\e63b&quot;;
+        }
+        .icon-label:before {
+                content: &quot;\e63c&quot;;
+        }
+        .icon-label-outline:before {
+                content: &quot;\e63d&quot;;
+        }
+        .icon-language:before {
+                content: &quot;\e63e&quot;;
+        }
+        .icon-launch:before {
+                content: &quot;\e63f&quot;;
+        }
+        .icon-list:before {
+                content: &quot;\e640&quot;;
+        }
+        .icon-lock:before {
+                content: &quot;\e641&quot;;
+        }
+        .icon-lock-open:before {
+                content: &quot;\e642&quot;;
+        }
+        .icon-lock-outline:before {
+                content: &quot;\e643&quot;;
+        }
+        .icon-loyalty:before {
+                content: &quot;\e644&quot;;
+        }
+        .icon-markunread-mailbox:before {
+                content: &quot;\e645&quot;;
+        }
+        .icon-note-add:before {
+                content: &quot;\e646&quot;;
+        }
+        .icon-open-in-browser:before {
+                content: &quot;\e647&quot;;
+        }
+        .icon-open-in-new:before {
+                content: &quot;\e648&quot;;
+        }
+        .icon-open-with:before {
+                content: &quot;\e649&quot;;
+        }
+        .icon-pageview:before {
+                content: &quot;\e64a&quot;;
+        }
+        .icon-payment:before {
+                content: &quot;\e64b&quot;;
+        }
+        .icon-perm-camera-m:before {
+                content: &quot;\e64c&quot;;
+        }
+        .icon-perm-contact-cal:before {
+                content: &quot;\e64d&quot;;
+        }
+        .icon-perm-data-setting:before {
+                content: &quot;\e64e&quot;;
+        }
+        .icon-perm-device-info:before {
+                content: &quot;\e64f&quot;;
+        }
+        .icon-perm-identity:before {
+                content: &quot;\e650&quot;;
+        }
+        .icon-perm-media:before {
+                content: &quot;\e651&quot;;
+        }
+        .icon-perm-phone-msg:before {
+                content: &quot;\e652&quot;;
+        }
+        .icon-perm-scan-wifi:before {
+                content: &quot;\e653&quot;;
+        }
+        .icon-picture-in-picture:before {
+                content: &quot;\e654&quot;;
+        }
+        .icon-polymer:before {
+                content: &quot;\e655&quot;;
+        }
+        .icon-print:before {
+                content: &quot;\e656&quot;;
+        }
+        .icon-query-builder:before {
+                content: &quot;\e657&quot;;
+        }
+        .icon-question-answer:before {
+                content: &quot;\e658&quot;;
+        }
+        .icon-receipt:before {
+                content: &quot;\e659&quot;;
+        }
+        .icon-redeem:before {
+                content: &quot;\e65a&quot;;
+        }
+        .icon-reorder:before {
+                content: &quot;\e65b&quot;;
+        }
+        .icon-report-problem:before {
+                content: &quot;\e65c&quot;;
+        }
+        .icon-restore:before {
+                content: &quot;\e65d&quot;;
+        }
+        .icon-room:before {
+                content: &quot;\e65e&quot;;
+        }
+        .icon-schedule:before {
+                content: &quot;\e65f&quot;;
+        }
+        .icon-search:before {
+                content: &quot;\e660&quot;;
+        }
+        .icon-settings:before {
+                content: &quot;\e661&quot;;
+        }
+        .icon-settings-applications:before {
+                content: &quot;\e662&quot;;
+        }
+        .icon-settings-backup-restore:before {
+                content: &quot;\e663&quot;;
+        }
+        .icon-settings-bluetooth:before {
+                content: &quot;\e664&quot;;
+        }
+        .icon-settings-cell:before {
+                content: &quot;\e665&quot;;
+        }
+        .icon-settings-display:before {
+                content: &quot;\e666&quot;;
+        }
+        .icon-settings-ethernet:before {
+                content: &quot;\e667&quot;;
+        }
+        .icon-settings-input-antenna:before {
+                content: &quot;\e668&quot;;
+        }
+        .icon-settings-input-component:before {
+                content: &quot;\e669&quot;;
+        }
+        .icon-settings-input-composite:before {
+                content: &quot;\e66a&quot;;
+        }
+        .icon-settings-input-hdmi:before {
+                content: &quot;\e66b&quot;;
+        }
+        .icon-settings-input-svideo:before {
+                content: &quot;\e66c&quot;;
+        }
+        .icon-settings-overscan:before {
+                content: &quot;\e66d&quot;;
+        }
+        .icon-settings-phone:before {
+                content: &quot;\e66e&quot;;
+        }
+        .icon-settings-power:before {
+                content: &quot;\e66f&quot;;
+        }
+        .icon-settings-remote:before {
+                content: &quot;\e670&quot;;
+        }
+        .icon-settings-voice:before {
+                content: &quot;\e671&quot;;
+        }
+        .icon-shop:before {
+                content: &quot;\e672&quot;;
+        }
+        .icon-shop-two:before {
+                content: &quot;\e673&quot;;
+        }
+        .icon-shopping-basket:before {
+                content: &quot;\e674&quot;;
+        }
+        .icon-shopping-cart:before {
+                content: &quot;\e675&quot;;
+        }
+        .icon-speaker-notes:before {
+                content: &quot;\e676&quot;;
+        }
+        .icon-spellcheck:before {
+                content: &quot;\e677&quot;;
+        }
+        .icon-star-rate:before {
+                content: &quot;\e678&quot;;
+        }
+        .icon-stars:before {
+                content: &quot;\e679&quot;;
+        }
+        .icon-store:before {
+                content: &quot;\e67a&quot;;
+        }
+        .icon-subject:before {
+                content: &quot;\e67b&quot;;
+        }
+        .icon-supervisor-account:before {
+                content: &quot;\e67c&quot;;
+        }
+        .icon-swap-horiz:before {
+                content: &quot;\e67d&quot;;
+        }
+        .icon-swap-vert:before {
+                content: &quot;\e67e&quot;;
+        }
+        .icon-swap-vert-circle:before {
+                content: &quot;\e67f&quot;;
+        }
+        .icon-system-update-tv:before {
+                content: &quot;\e680&quot;;
+        }
+        .icon-tab:before {
+                content: &quot;\e681&quot;;
+        }
+        .icon-tab-unselected:before {
+                content: &quot;\e682&quot;;
+        }
+        .icon-theaters:before {
+                content: &quot;\e683&quot;;
+        }
+        .icon-thumb-down:before {
+                content: &quot;\e684&quot;;
+        }
+        .icon-thumb-up:before {
+                content: &quot;\e685&quot;;
+        }
+        .icon-thumbs-up-down:before {
+                content: &quot;\e686&quot;;
+        }
+        .icon-toc:before {
+                content: &quot;\e687&quot;;
+        }
+        .icon-today:before {
+                content: &quot;\e688&quot;;
+        }
+        .icon-track-changes:before {
+                content: &quot;\e689&quot;;
+        }
+        .icon-translate:before {
+                content: &quot;\e68a&quot;;
+        }
+        .icon-trending-down:before {
+                content: &quot;\e68b&quot;;
+        }
+        .icon-trending-neutral:before {
+                content: &quot;\e68c&quot;;
+        }
+        .icon-trending-up:before {
+                content: &quot;\e68d&quot;;
+        }
+        .icon-turned-in:before {
+                content: &quot;\e68e&quot;;
+        }
+        .icon-turned-in-not:before {
+                content: &quot;\e68f&quot;;
+        }
+        .icon-verified-user:before {
+                content: &quot;\e690&quot;;
+        }
+        .icon-view-agenda:before {
+                content: &quot;\e691&quot;;
+        }
+        .icon-view-array:before {
+                content: &quot;\e692&quot;;
+        }
+        .icon-view-carousel:before {
+                content: &quot;\e693&quot;;
+        }
+        .icon-view-column:before {
+                content: &quot;\e694&quot;;
+        }
+        .icon-view-day:before {
+                content: &quot;\e695&quot;;
+        }
+        .icon-view-headline:before {
+                content: &quot;\e696&quot;;
+        }
+        .icon-view-list:before {
+                content: &quot;\e697&quot;;
+        }
+        .icon-view-module:before {
+                content: &quot;\e698&quot;;
+        }
+        .icon-view-quilt:before {
+                content: &quot;\e699&quot;;
+        }
+        .icon-view-stream:before {
+                content: &quot;\e69a&quot;;
+        }
+        .icon-view-week:before {
+                content: &quot;\e69b&quot;;
+        }
+        .icon-visibility:before {
+                content: &quot;\e69c&quot;;
+        }
+        .icon-visibility-off:before {
+                content: &quot;\e69d&quot;;
+        }
+        .icon-wallet-giftcard:before {
+                content: &quot;\e69e&quot;;
+        }
+        .icon-wallet-membership:before {
+                content: &quot;\e69f&quot;;
+        }
+        .icon-wallet-travel:before {
+                content: &quot;\e6a0&quot;;
+        }
+        .icon-work:before {
+                content: &quot;\e6a1&quot;;
+        }
+        .icon-error:before {
+                content: &quot;\e6a2&quot;;
+        }
+        .icon-warning:before {
+                content: &quot;\e6a3&quot;;
+        }
+        .icon-album:before {
+                content: &quot;\e6a4&quot;;
+        }
+        .icon-av-timer:before {
+                content: &quot;\e6a5&quot;;
+        }
+        .icon-closed-caption:before {
+                content: &quot;\e6a6&quot;;
+        }
+        .icon-equalizer:before {
+                content: &quot;\e6a7&quot;;
+        }
+        .icon-explicit:before {
+                content: &quot;\e6a8&quot;;
+        }
+        .icon-fast-forward:before {
+                content: &quot;\e6a9&quot;;
+        }
+        .icon-fast-rewind:before {
+                content: &quot;\e6aa&quot;;
+        }
+        .icon-games:before {
+                content: &quot;\e6ab&quot;;
+        }
+        .icon-hearing:before {
+                content: &quot;\e6ac&quot;;
+        }
+        .icon-high-quality:before {
+                content: &quot;\e6ad&quot;;
+        }
+        .icon-loop:before {
+                content: &quot;\e6ae&quot;;
+        }
+        .icon-mic:before {
+                content: &quot;\e6af&quot;;
+        }
+        .icon-mnone:before {
+                content: &quot;\e6b0&quot;;
+        }
+        .icon-moff:before {
+                content: &quot;\e6b1&quot;;
+        }
+        .icon-movie:before {
+                content: &quot;\e6b2&quot;;
+        }
+        .icon-my-library-add:before {
+                content: &quot;\e6b3&quot;;
+        }
+        .icon-my-library-books:before {
+                content: &quot;\e6b4&quot;;
+        }
+        .icon-my-library-mus:before {
+                content: &quot;\e6b5&quot;;
+        }
+        .icon-new-releases:before {
+                content: &quot;\e6b6&quot;;
+        }
+        .icon-not-interested:before {
+                content: &quot;\e6b7&quot;;
+        }
+        .icon-pause:before {
+                content: &quot;\e6b8&quot;;
+        }
+        .icon-pause-circle-fill:before {
+                content: &quot;\e6b9&quot;;
+        }
+        .icon-pause-circle-outline:before {
+                content: &quot;\e6ba&quot;;
+        }
+        .icon-play-arrow:before {
+                content: &quot;\e6bb&quot;;
+        }
+        .icon-play-circle-fill:before {
+                content: &quot;\e6bc&quot;;
+        }
+        .icon-play-circle-outline:before {
+                content: &quot;\e6bd&quot;;
+        }
+        .icon-play-shopping-bag:before {
+                content: &quot;\e6be&quot;;
+        }
+        .icon-playlist-add:before {
+                content: &quot;\e6bf&quot;;
+        }
+        .icon-queue:before {
+                content: &quot;\e6c0&quot;;
+        }
+        .icon-queue-mus:before {
+                content: &quot;\e6c1&quot;;
+        }
+        .icon-radio:before {
+                content: &quot;\e6c2&quot;;
+        }
+        .icon-recent-actors:before {
+                content: &quot;\e6c3&quot;;
+        }
+        .icon-repeat:before {
+                content: &quot;\e6c4&quot;;
+        }
+        .icon-repeat-one:before {
+                content: &quot;\e6c5&quot;;
+        }
+        .icon-replay:before {
+                content: &quot;\e6c6&quot;;
+        }
+        .icon-shuffle:before {
+                content: &quot;\e6c7&quot;;
+        }
+        .icon-skip-next:before {
+                content: &quot;\e6c8&quot;;
+        }
+        .icon-skip-previous:before {
+                content: &quot;\e6c9&quot;;
+        }
+        .icon-snooze:before {
+                content: &quot;\e6ca&quot;;
+        }
+        .icon-stop:before {
+                content: &quot;\e6cb&quot;;
+        }
+        .icon-subtitles:before {
+                content: &quot;\e6cc&quot;;
+        }
+        .icon-surround-sound:before {
+                content: &quot;\e6cd&quot;;
+        }
+        .icon-video-collection:before {
+                content: &quot;\e6ce&quot;;
+        }
+        .icon-videocam:before {
+                content: &quot;\e6cf&quot;;
+        }
+        .icon-videocam-off:before {
+                content: &quot;\e6d0&quot;;
+        }
+        .icon-volume-down:before {
+                content: &quot;\e6d1&quot;;
+        }
+        .icon-volume-mute:before {
+                content: &quot;\e6d2&quot;;
+        }
+        .icon-volume-off:before {
+                content: &quot;\e6d3&quot;;
+        }
+        .icon-volume-up:before {
+                content: &quot;\e6d4&quot;;
+        }
+        .icon-web:before {
+                content: &quot;\e6d5&quot;;
+        }
+        .icon-business:before {
+                content: &quot;\e6d6&quot;;
+        }
+        .icon-call:before {
+                content: &quot;\e6d7&quot;;
+        }
+        .icon-call-end:before {
+                content: &quot;\e6d8&quot;;
+        }
+        .icon-call-made:before {
+                content: &quot;\e6d9&quot;;
+        }
+        .icon-call-merge:before {
+                content: &quot;\e6da&quot;;
+        }
+        .icon-call-missed:before {
+                content: &quot;\e6db&quot;;
+        }
+        .icon-call-received:before {
+                content: &quot;\e6dc&quot;;
+        }
+        .icon-call-split:before {
+                content: &quot;\e6dd&quot;;
+        }
+        .icon-chat:before {
+                content: &quot;\e6de&quot;;
+        }
+        .icon-clear-all:before {
+                content: &quot;\e6df&quot;;
+        }
+        .icon-comment:before {
+                content: &quot;\e6e0&quot;;
+        }
+        .icon-contacts:before {
+                content: &quot;\e6e1&quot;;
+        }
+        .icon-dialer-sip:before {
+                content: &quot;\e6e2&quot;;
+        }
+        .icon-dialpad:before {
+                content: &quot;\e6e3&quot;;
+        }
+        .icon-dnd-on:before {
+                content: &quot;\e6e4&quot;;
+        }
+        .icon-email:before {
+                content: &quot;\e6e5&quot;;
+        }
+        .icon-forum:before {
+                content: &quot;\e6e6&quot;;
+        }
+        .icon-import-export:before {
+                content: &quot;\e6e7&quot;;
+        }
+        .icon-invert-colors-off:before {
+                content: &quot;\e6e8&quot;;
+        }
+        .icon-invert-colors-on:before {
+                content: &quot;\e6e9&quot;;
+        }
+        .icon-live-help:before {
+                content: &quot;\e6ea&quot;;
+        }
+        .icon-location-off:before {
+                content: &quot;\e6eb&quot;;
+        }
+        .icon-location-on:before {
+                content: &quot;\e6ec&quot;;
+        }
+        .icon-message:before {
+                content: &quot;\e6ed&quot;;
+        }
+        .icon-messenger:before {
+                content: &quot;\e6ee&quot;;
+        }
+        .icon-no-sim:before {
+                content: &quot;\e6ef&quot;;
+        }
+        .icon-phone:before {
+                content: &quot;\e6f0&quot;;
+        }
+        .icon-portable-wifi-off:before {
+                content: &quot;\e6f1&quot;;
+        }
+        .icon-quick-contacts-dialer:before {
+                content: &quot;\e6f2&quot;;
+        }
+        .icon-quick-contacts-mail:before {
+                content: &quot;\e6f3&quot;;
+        }
+        .icon-ring-volume:before {
+                content: &quot;\e6f4&quot;;
+        }
+        .icon-stay-current-landscape:before {
+                content: &quot;\e6f5&quot;;
+        }
+        .icon-stay-current-portrait:before {
+                content: &quot;\e6f6&quot;;
+        }
+        .icon-stay-primary-landscape:before {
+                content: &quot;\e6f7&quot;;
+        }
+        .icon-stay-primary-portrait:before {
+                content: &quot;\e6f8&quot;;
+        }
+        .icon-swap-calls:before {
+                content: &quot;\e6f9&quot;;
+        }
+        .icon-textsms:before {
+                content: &quot;\e6fa&quot;;
+        }
+        .icon-voicemail:before {
+                content: &quot;\e6fb&quot;;
+        }
+        .icon-vpn-key:before {
+                content: &quot;\e6fc&quot;;
+        }
+        .icon-add:before {
+                content: &quot;\e6fd&quot;;
+        }
+        .icon-add-box:before {
+                content: &quot;\e6fe&quot;;
+        }
+        .icon-add-circle:before {
+                content: &quot;\e6ff&quot;;
+        }
+        .icon-add-circle-outline:before {
+                content: &quot;\e700&quot;;
+        }
+        .icon-archive:before {
+                content: &quot;\e701&quot;;
+        }
+        .icon-backspace:before {
+                content: &quot;\e702&quot;;
+        }
+        .icon-block:before {
+                content: &quot;\e703&quot;;
+        }
+        .icon-clear:before {
+                content: &quot;\e704&quot;;
+        }
+        .icon-content-copy:before {
+                content: &quot;\e705&quot;;
+        }
+        .icon-content-cut:before {
+                content: &quot;\e706&quot;;
+        }
+        .icon-content-paste:before {
+                content: &quot;\e707&quot;;
+        }
+        .icon-create:before {
+                content: &quot;\e708&quot;;
+        }
+        .icon-drafts:before {
+                content: &quot;\e709&quot;;
+        }
+        .icon-filter-list:before {
+                content: &quot;\e70a&quot;;
+        }
+        .icon-flag:before {
+                content: &quot;\e70b&quot;;
+        }
+        .icon-forward:before {
+                content: &quot;\e70c&quot;;
+        }
+        .icon-gesture:before {
+                content: &quot;\e70d&quot;;
+        }
+        .icon-inbox:before {
+                content: &quot;\e70e&quot;;
+        }
+        .icon-link:before {
+                content: &quot;\e70f&quot;;
+        }
+        .icon-mail:before {
+                content: &quot;\e710&quot;;
+        }
+        .icon-markunread:before {
+                content: &quot;\e711&quot;;
+        }
+        .icon-redo:before {
+                content: &quot;\e712&quot;;
+        }
+        .icon-remove:before {
+                content: &quot;\e713&quot;;
+        }
+        .icon-remove-circle:before {
+                content: &quot;\e714&quot;;
+        }
+        .icon-remove-circle-outline:before {
+                content: &quot;\e715&quot;;
+        }
+        .icon-reply:before {
+                content: &quot;\e716&quot;;
+        }
+        .icon-reply-all:before {
+                content: &quot;\e717&quot;;
+        }
+        .icon-report:before {
+                content: &quot;\e718&quot;;
+        }
+        .icon-save:before {
+                content: &quot;\e719&quot;;
+        }
+        .icon-select-all:before {
+                content: &quot;\e71a&quot;;
+        }
+        .icon-send:before {
+                content: &quot;\e71b&quot;;
+        }
+        .icon-sort:before {
+                content: &quot;\e71c&quot;;
+        }
+        .icon-text-format:before {
+                content: &quot;\e71d&quot;;
+        }
+        .icon-undo:before {
+                content: &quot;\e71e&quot;;
+        }
+        .icon-access-alarm:before {
+                content: &quot;\e71f&quot;;
+        }
+        .icon-access-alarms:before {
+                content: &quot;\e720&quot;;
+        }
+        .icon-access-time:before {
+                content: &quot;\e721&quot;;
+        }
+        .icon-add-alarm:before {
+                content: &quot;\e722&quot;;
+        }
+        .icon-airplanemode-off:before {
+                content: &quot;\e723&quot;;
+        }
+        .icon-airplanemode-on:before {
+                content: &quot;\e724&quot;;
+        }
+        .icon-battery-20:before {
+                content: &quot;\e725&quot;;
+        }
+        .icon-battery-30:before {
+                content: &quot;\e726&quot;;
+        }
+        .icon-battery-50:before {
+                content: &quot;\e727&quot;;
+        }
+        .icon-battery-60:before {
+                content: &quot;\e728&quot;;
+        }
+        .icon-battery-80:before {
+                content: &quot;\e729&quot;;
+        }
+        .icon-battery-90:before {
+                content: &quot;\e72a&quot;;
+        }
+        .icon-battery-alert:before {
+                content: &quot;\e72b&quot;;
+        }
+        .icon-battery-charging-20:before {
+                content: &quot;\e72c&quot;;
+        }
+        .icon-battery-charging-30:before {
+                content: &quot;\e72d&quot;;
+        }
+        .icon-battery-charging-50:before {
+                content: &quot;\e72e&quot;;
+        }
+        .icon-battery-charging-60:before {
+                content: &quot;\e72f&quot;;
+        }
+        .icon-battery-charging-80:before {
+                content: &quot;\e730&quot;;
+        }
+        .icon-battery-charging-90:before {
+                content: &quot;\e731&quot;;
+        }
+        .icon-battery-charging-full:before {
+                content: &quot;\e732&quot;;
+        }
+        .icon-battery-full:before {
+                content: &quot;\e733&quot;;
+        }
+        .icon-battery-std:before {
+                content: &quot;\e734&quot;;
+        }
+        .icon-battery-unknown:before {
+                content: &quot;\e735&quot;;
+        }
+        .icon-bluetooth:before {
+                content: &quot;\e736&quot;;
+        }
+        .icon-bluetooth-connected:before {
+                content: &quot;\e737&quot;;
+        }
+        .icon-bluetooth-disabled:before {
+                content: &quot;\e738&quot;;
+        }
+        .icon-bluetooth-searching:before {
+                content: &quot;\e739&quot;;
+        }
+        .icon-brightness-auto:before {
+                content: &quot;\e73a&quot;;
+        }
+        .icon-brightness-high:before {
+                content: &quot;\e73b&quot;;
+        }
+        .icon-brightness-low:before {
+                content: &quot;\e73c&quot;;
+        }
+        .icon-brightness-medium:before {
+                content: &quot;\e73d&quot;;
+        }
+        .icon-data-usage:before {
+                content: &quot;\e73e&quot;;
+        }
+        .icon-developer-mode:before {
+                content: &quot;\e73f&quot;;
+        }
+        .icon-devices:before {
+                content: &quot;\e740&quot;;
+        }
+        .icon-dvr:before {
+                content: &quot;\e741&quot;;
+        }
+        .icon-gps-fixed:before {
+                content: &quot;\e742&quot;;
+        }
+        .icon-gps-not-fixed:before {
+                content: &quot;\e743&quot;;
+        }
+        .icon-gps-off:before {
+                content: &quot;\e744&quot;;
+        }
+        .icon-location-disabled:before {
+                content: &quot;\e745&quot;;
+        }
+        .icon-location-searching:before {
+                content: &quot;\e746&quot;;
+        }
+        .icon-multitrack-audio:before {
+                content: &quot;\e747&quot;;
+        }
+        .icon-network-cell:before {
+                content: &quot;\e748&quot;;
+        }
+        .icon-network-wifi:before {
+                content: &quot;\e749&quot;;
+        }
+        .icon-nfc:before {
+                content: &quot;\e74a&quot;;
+        }
+        .icon-now-wallpaper:before {
+                content: &quot;\e74b&quot;;
+        }
+        .icon-now-widgets:before {
+                content: &quot;\e74c&quot;;
+        }
+        .icon-screen-lock-landscape:before {
+                content: &quot;\e74d&quot;;
+        }
+        .icon-screen-lock-portrait:before {
+                content: &quot;\e74e&quot;;
+        }
+        .icon-screen-lock-rotation:before {
+                content: &quot;\e74f&quot;;
+        }
+        .icon-screen-rotation:before {
+                content: &quot;\e750&quot;;
+        }
+        .icon-sd-storage:before {
+                content: &quot;\e751&quot;;
+        }
+        .icon-settings-system-daydream:before {
+                content: &quot;\e752&quot;;
+        }
+        .icon-signal-cellular-0-bar:before {
+                content: &quot;\e753&quot;;
+        }
+        .icon-signal-cellular-1-bar:before {
+                content: &quot;\e754&quot;;
+        }
+        .icon-signal-cellular-2-bar:before {
+                content: &quot;\e755&quot;;
+        }
+        .icon-signal-cellular-3-bar:before {
+                content: &quot;\e756&quot;;
+        }
+        .icon-signal-cellular-4-bar:before {
+                content: &quot;\e757&quot;;
+        }
+        .icon-signal-cellular-connected-no-internet-0-bar:before {
+                content: &quot;\e758&quot;;
+        }
+        .icon-signal-cellular-connected-no-internet-1-bar:before {
+                content: &quot;\e759&quot;;
+        }
+        .icon-signal-cellular-connected-no-internet-2-bar:before {
+                content: &quot;\e75a&quot;;
+        }
+        .icon-signal-cellular-connected-no-internet-3-bar:before {
+                content: &quot;\e75b&quot;;
+        }
+        .icon-signal-cellular-connected-no-internet-4-bar:before {
+                content: &quot;\e75c&quot;;
+        }
+        .icon-signal-cellular-no-sim:before {
+                content: &quot;\e75d&quot;;
+        }
+        .icon-signal-cellular-null:before {
+                content: &quot;\e75e&quot;;
+        }
+        .icon-signal-cellular-off:before {
+                content: &quot;\e75f&quot;;
+        }
+        .icon-signal-wifi-0-bar:before {
+                content: &quot;\e760&quot;;
+        }
+        .icon-signal-wifi-1-bar:before {
+                content: &quot;\e761&quot;;
+        }
+        .icon-signal-wifi-2-bar:before {
+                content: &quot;\e762&quot;;
+        }
+        .icon-signal-wifi-3-bar:before {
+                content: &quot;\e763&quot;;
+        }
+        .icon-signal-wifi-4-bar:before {
+                content: &quot;\e764&quot;;
+        }
+        .icon-signal-wifi-off:before {
+                content: &quot;\e765&quot;;
+        }
+        .icon-signal-wifi-statusbar-1-bar:before {
+                content: &quot;\e766&quot;;
+        }
+        .icon-signal-wifi-statusbar-2-bar:before {
+                content: &quot;\e767&quot;;
+        }
+        .icon-signal-wifi-statusbar-3-bar:before {
+                content: &quot;\e768&quot;;
+        }
+        .icon-signal-wifi-statusbar-4-bar:before {
+                content: &quot;\e769&quot;;
+        }
+        .icon-signal-wifi-statusbar-connected-no-internet-1:before {
+                content: &quot;\e76a&quot;;
+        }
+        .icon-signal-wifi-statusbar-connected-no-internet-2:before {
+                content: &quot;\e76b&quot;;
+        }
+        .icon-signal-wifi-statusbar-connected-no-internet-3:before {
+                content: &quot;\e76c&quot;;
+        }
+        .icon-signal-wifi-statusbar-connected-no-internet-4:before {
+                content: &quot;\e76d&quot;;
+        }
+        .icon-signal-wifi-statusbar-connected-no-internet:before {
+                content: &quot;\e76e&quot;;
+        }
+        .icon-signal-wifi-statusbar-not-connected:before {
+                content: &quot;\e76f&quot;;
+        }
+        .icon-signal-wifi-statusbar-null:before {
+                content: &quot;\e770&quot;;
+        }
+        .icon-storage:before {
+                content: &quot;\e771&quot;;
+        }
+        .icon-usb:before {
+                content: &quot;\e772&quot;;
+        }
+        .icon-wifi-lock:before {
+                content: &quot;\e773&quot;;
+        }
+        .icon-wifi-tethering:before {
+                content: &quot;\e774&quot;;
+        }
+        .icon-attach-file:before {
+                content: &quot;\e775&quot;;
+        }
+        .icon-attach-money:before {
+                content: &quot;\e776&quot;;
+        }
+        .icon-border-all:before {
+                content: &quot;\e777&quot;;
+        }
+        .icon-border-bottom:before {
+                content: &quot;\e778&quot;;
+        }
+        .icon-border-clear:before {
+                content: &quot;\e779&quot;;
+        }
+        .icon-border-color:before {
+                content: &quot;\e77a&quot;;
+        }
+        .icon-border-horizontal:before {
+                content: &quot;\e77b&quot;;
+        }
+        .icon-border-inner:before {
+                content: &quot;\e77c&quot;;
+        }
+        .icon-border-left:before {
+                content: &quot;\e77d&quot;;
+        }
+        .icon-border-outer:before {
+                content: &quot;\e77e&quot;;
+        }
+        .icon-border-right:before {
+                content: &quot;\e77f&quot;;
+        }
+        .icon-border-style:before {
+                content: &quot;\e780&quot;;
+        }
+        .icon-border-top:before {
+                content: &quot;\e781&quot;;
+        }
+        .icon-border-vertical:before {
+                content: &quot;\e782&quot;;
+        }
+        .icon-format-align-center:before {
+                content: &quot;\e783&quot;;
+        }
+        .icon-format-align-justify:before {
+                content: &quot;\e784&quot;;
+        }
+        .icon-format-align-left:before {
+                content: &quot;\e785&quot;;
+        }
+        .icon-format-align-right:before {
+                content: &quot;\e786&quot;;
+        }
+        .icon-format-bold:before {
+                content: &quot;\e787&quot;;
+        }
+        .icon-format-clear:before {
+                content: &quot;\e788&quot;;
+        }
+        .icon-format-color-fill:before {
+                content: &quot;\e789&quot;;
+        }
+        .icon-format-color-reset:before {
+                content: &quot;\e78a&quot;;
+        }
+        .icon-format-color-text:before {
+                content: &quot;\e78b&quot;;
+        }
+        .icon-format-indent-decrease:before {
+                content: &quot;\e78c&quot;;
+        }
+        .icon-format-indent-increase:before {
+                content: &quot;\e78d&quot;;
+        }
+        .icon-format-ital:before {
+                content: &quot;\e78e&quot;;
+        }
+        .icon-format-line-spacing:before {
+                content: &quot;\e78f&quot;;
+        }
+        .icon-format-list-bulleted:before {
+                content: &quot;\e790&quot;;
+        }
+        .icon-format-list-numbered:before {
+                content: &quot;\e791&quot;;
+        }
+        .icon-format-paint:before {
+                content: &quot;\e792&quot;;
+        }
+        .icon-format-quote:before {
+                content: &quot;\e793&quot;;
+        }
+        .icon-format-size:before {
+                content: &quot;\e794&quot;;
+        }
+        .icon-format-strikethrough:before {
+                content: &quot;\e795&quot;;
+        }
+        .icon-format-textdirection-l-to-r:before {
+                content: &quot;\e796&quot;;
+        }
+        .icon-format-textdirection-r-to-l:before {
+                content: &quot;\e797&quot;;
+        }
+        .icon-format-underline:before {
+                content: &quot;\e798&quot;;
+        }
+        .icon-functions:before {
+                content: &quot;\e799&quot;;
+        }
+        .icon-insert-chart:before {
+                content: &quot;\e79a&quot;;
+        }
+        .icon-insert-comment:before {
+                content: &quot;\e79b&quot;;
+        }
+        .icon-insert-drive-file:before {
+                content: &quot;\e79c&quot;;
+        }
+        .icon-insert-emoticon:before {
+                content: &quot;\e79d&quot;;
+        }
+        .icon-insert-invitation:before {
+                content: &quot;\e79e&quot;;
+        }
+        .icon-insert-link:before {
+                content: &quot;\e79f&quot;;
+        }
+        .icon-insert-photo:before {
+                content: &quot;\e7a0&quot;;
+        }
+        .icon-merge-type:before {
+                content: &quot;\e7a1&quot;;
+        }
+        .icon-mode-comment:before {
+                content: &quot;\e7a2&quot;;
+        }
+        .icon-mode-edit:before {
+                content: &quot;\e7a3&quot;;
+        }
+        .icon-publish:before {
+                content: &quot;\e7a4&quot;;
+        }
+        .icon-vertical-align-bottom:before {
+                content: &quot;\e7a5&quot;;
+        }
+        .icon-vertical-align-center:before {
+                content: &quot;\e7a6&quot;;
+        }
+        .icon-vertical-align-top:before {
+                content: &quot;\e7a7&quot;;
+        }
+        .icon-wrap-text:before {
+                content: &quot;\e7a8&quot;;
+        }
+        .icon-attachment:before {
+                content: &quot;\e7a9&quot;;
+        }
+        .icon-cloud:before {
+                content: &quot;\e7aa&quot;;
+        }
+        .icon-cloud-circle:before {
+                content: &quot;\e7ab&quot;;
+        }
+        .icon-cloud-done:before {
+                content: &quot;\e7ac&quot;;
+        }
+        .icon-cloud-download:before {
+                content: &quot;\e7ad&quot;;
+        }
+        .icon-cloud-off:before {
+                content: &quot;\e7ae&quot;;
+        }
+        .icon-cloud-queue:before {
+                content: &quot;\e7af&quot;;
+        }
+        .icon-cloud-upload:before {
+                content: &quot;\e7b0&quot;;
+        }
+        .icon-file-download:before {
+                content: &quot;\e7b1&quot;;
+        }
+        .icon-file-upload:before {
+                content: &quot;\e7b2&quot;;
+        }
+        .icon-folder:before {
+                content: &quot;\e7b3&quot;;
+        }
+        .icon-folder-open:before {
+                content: &quot;\e7b4&quot;;
+        }
+        .icon-folder-shared:before {
+                content: &quot;\e7b5&quot;;
+        }
+        .icon-cast:before {
+                content: &quot;\e7b6&quot;;
+        }
+        .icon-cast-connected:before {
+                content: &quot;\e7b7&quot;;
+        }
+        .icon-computer:before {
+                content: &quot;\e7b8&quot;;
+        }
+        .icon-desktop-mac:before {
+                content: &quot;\e7b9&quot;;
+        }
+        .icon-desktop-windows:before {
+                content: &quot;\e7ba&quot;;
+        }
+        .icon-dock:before {
+                content: &quot;\e7bb&quot;;
+        }
+        .icon-gamepad:before {
+                content: &quot;\e7bc&quot;;
+        }
+        .icon-headset:before {
+                content: &quot;\e7bd&quot;;
+        }
+        .icon-headset-m:before {
+                content: &quot;\e7be&quot;;
+        }
+        .icon-keyboard:before {
+                content: &quot;\e7bf&quot;;
+        }
+        .icon-keyboard-alt:before {
+                content: &quot;\e7c0&quot;;
+        }
+        .icon-keyboard-arrow-down:before {
+                content: &quot;\e7c1&quot;;
+        }
+        .icon-keyboard-arrow-left:before {
+                content: &quot;\e7c2&quot;;
+        }
+        .icon-keyboard-arrow-right:before {
+                content: &quot;\e7c3&quot;;
+        }
+        .icon-keyboard-arrow-up:before {
+                content: &quot;\e7c4&quot;;
+        }
+        .icon-keyboard-backspace:before {
+                content: &quot;\e7c5&quot;;
+        }
+        .icon-keyboard-capslock:before {
+                content: &quot;\e7c6&quot;;
+        }
+        .icon-keyboard-control:before {
+                content: &quot;\e7c7&quot;;
+        }
+        .icon-keyboard-hide:before {
+                content: &quot;\e7c8&quot;;
+        }
+        .icon-keyboard-return:before {
+                content: &quot;\e7c9&quot;;
+        }
+        .icon-keyboard-tab:before {
+                content: &quot;\e7ca&quot;;
+        }
+        .icon-keyboard-voice:before {
+                content: &quot;\e7cb&quot;;
+        }
+        .icon-laptop:before {
+                content: &quot;\e7cc&quot;;
+        }
+        .icon-laptop-chromebook:before {
+                content: &quot;\e7cd&quot;;
+        }
+        .icon-laptop-mac:before {
+                content: &quot;\e7ce&quot;;
+        }
+        .icon-laptop-windows:before {
+                content: &quot;\e7cf&quot;;
+        }
+        .icon-memory:before {
+                content: &quot;\e7d0&quot;;
+        }
+        .icon-mouse:before {
+                content: &quot;\e7d1&quot;;
+        }
+        .icon-phone-android:before {
+                content: &quot;\e7d2&quot;;
+        }
+        .icon-phone-iphone:before {
+                content: &quot;\e7d3&quot;;
+        }
+        .icon-phonelink:before {
+                content: &quot;\e7d4&quot;;
+        }
+        .icon-phonelink-off:before {
+                content: &quot;\e7d5&quot;;
+        }
+        .icon-security:before {
+                content: &quot;\e7d6&quot;;
+        }
+        .icon-sim-card:before {
+                content: &quot;\e7d7&quot;;
+        }
+        .icon-smartphone:before {
+                content: &quot;\e7d8&quot;;
+        }
+        .icon-speaker:before {
+                content: &quot;\e7d9&quot;;
+        }
+        .icon-tablet:before {
+                content: &quot;\e7da&quot;;
+        }
+        .icon-tablet-android:before {
+                content: &quot;\e7db&quot;;
+        }
+        .icon-tablet-mac:before {
+                content: &quot;\e7dc&quot;;
+        }
+        .icon-tv:before {
+                content: &quot;\e7dd&quot;;
+        }
+        .icon-watch:before {
+                content: &quot;\e7de&quot;;
+        }
+        .icon-add-to-photos:before {
+                content: &quot;\e7df&quot;;
+        }
+        .icon-adjust:before {
+                content: &quot;\e7e0&quot;;
+        }
+        .icon-assistant-photo:before {
+                content: &quot;\e7e1&quot;;
+        }
+        .icon-audiotrack:before {
+                content: &quot;\e7e2&quot;;
+        }
+        .icon-blur-circular:before {
+                content: &quot;\e7e3&quot;;
+        }
+        .icon-blur-linear:before {
+                content: &quot;\e7e4&quot;;
+        }
+        .icon-blur-off:before {
+                content: &quot;\e7e5&quot;;
+        }
+        .icon-blur-on:before {
+                content: &quot;\e7e6&quot;;
+        }
+        .icon-brightness-1:before {
+                content: &quot;\e7e7&quot;;
+        }
+        .icon-brightness-2:before {
+                content: &quot;\e7e8&quot;;
+        }
+        .icon-brightness-3:before {
+                content: &quot;\e7e9&quot;;
+        }
+        .icon-brightness-4:before {
+                content: &quot;\e7ea&quot;;
+        }
+        .icon-brightness-5:before {
+                content: &quot;\e7eb&quot;;
+        }
+        .icon-brightness-6:before {
+                content: &quot;\e7ec&quot;;
+        }
+        .icon-brightness-7:before {
+                content: &quot;\e7ed&quot;;
+        }
+        .icon-brush:before {
+                content: &quot;\e7ee&quot;;
+        }
+        .icon-camera:before {
+                content: &quot;\e7ef&quot;;
+        }
+        .icon-camera-alt:before {
+                content: &quot;\e7f0&quot;;
+        }
+        .icon-camera-front:before {
+                content: &quot;\e7f1&quot;;
+        }
+        .icon-camera-rear:before {
+                content: &quot;\e7f2&quot;;
+        }
+        .icon-camera-roll:before {
+                content: &quot;\e7f3&quot;;
+        }
+        .icon-center-focus-strong:before {
+                content: &quot;\e7f4&quot;;
+        }
+        .icon-center-focus-weak:before {
+                content: &quot;\e7f5&quot;;
+        }
+        .icon-collections:before {
+                content: &quot;\e7f6&quot;;
+        }
+        .icon-color-lens:before {
+                content: &quot;\e7f7&quot;;
+        }
+        .icon-colorize:before {
+                content: &quot;\e7f8&quot;;
+        }
+        .icon-compare:before {
+                content: &quot;\e7f9&quot;;
+        }
+        .icon-control-point:before {
+                content: &quot;\e7fa&quot;;
+        }
+        .icon-control-point-duplicate:before {
+                content: &quot;\e7fb&quot;;
+        }
+        .icon-crop-3-2:before {
+                content: &quot;\e7fc&quot;;
+        }
+        .icon-crop-5-4:before {
+                content: &quot;\e7fd&quot;;
+        }
+        .icon-crop-7-5:before {
+                content: &quot;\e7fe&quot;;
+        }
+        .icon-crop-16-9:before {
+                content: &quot;\e7ff&quot;;
+        }
+        .icon-crop:before {
+                content: &quot;\e800&quot;;
+        }
+        .icon-crop-din:before {
+                content: &quot;\e801&quot;;
+        }
+        .icon-crop-free:before {
+                content: &quot;\e802&quot;;
+        }
+        .icon-crop-landscape:before {
+                content: &quot;\e803&quot;;
+        }
+        .icon-crop-original:before {
+                content: &quot;\e804&quot;;
+        }
+        .icon-crop-portrait:before {
+                content: &quot;\e805&quot;;
+        }
+        .icon-crop-square:before {
+                content: &quot;\e806&quot;;
+        }
+        .icon-dehaze:before {
+                content: &quot;\e807&quot;;
+        }
+        .icon-details:before {
+                content: &quot;\e808&quot;;
+        }
+        .icon-edit:before {
+                content: &quot;\e809&quot;;
+        }
+        .icon-exposure:before {
+                content: &quot;\e80a&quot;;
+        }
+        .icon-exposure-minus-1:before {
+                content: &quot;\e80b&quot;;
+        }
+        .icon-exposure-minus-2:before {
+                content: &quot;\e80c&quot;;
+        }
+        .icon-exposure-plus-1:before {
+                content: &quot;\e80d&quot;;
+        }
+        .icon-exposure-plus-2:before {
+                content: &quot;\e80e&quot;;
+        }
+        .icon-exposure-zero:before {
+                content: &quot;\e80f&quot;;
+        }
+        .icon-filter-1:before {
+                content: &quot;\e810&quot;;
+        }
+        .icon-filter-2:before {
+                content: &quot;\e811&quot;;
+        }
+        .icon-filter-3:before {
+                content: &quot;\e812&quot;;
+        }
+        .icon-filter-4:before {
+                content: &quot;\e813&quot;;
+        }
+        .icon-filter-5:before {
+                content: &quot;\e814&quot;;
+        }
+        .icon-filter-6:before {
+                content: &quot;\e815&quot;;
+        }
+        .icon-filter-7:before {
+                content: &quot;\e816&quot;;
+        }
+        .icon-filter-8:before {
+                content: &quot;\e817&quot;;
+        }
+        .icon-filter-9:before {
+                content: &quot;\e818&quot;;
+        }
+        .icon-filter-9-plus:before {
+                content: &quot;\e819&quot;;
+        }
+        .icon-filter:before {
+                content: &quot;\e81a&quot;;
+        }
+        .icon-filter-b-and-w:before {
+                content: &quot;\e81b&quot;;
+        }
+        .icon-filter-center-focus:before {
+                content: &quot;\e81c&quot;;
+        }
+        .icon-filter-drama:before {
+                content: &quot;\e81d&quot;;
+        }
+        .icon-filter-frames:before {
+                content: &quot;\e81e&quot;;
+        }
+        .icon-filter-hdr:before {
+                content: &quot;\e81f&quot;;
+        }
+        .icon-filter-none:before {
+                content: &quot;\e820&quot;;
+        }
+        .icon-filter-tilt-shift:before {
+                content: &quot;\e821&quot;;
+        }
+        .icon-filter-vintage:before {
+                content: &quot;\e822&quot;;
+        }
+        .icon-flare:before {
+                content: &quot;\e823&quot;;
+        }
+        .icon-flash-auto:before {
+                content: &quot;\e824&quot;;
+        }
+        .icon-flash-off:before {
+                content: &quot;\e825&quot;;
+        }
+        .icon-flash-on:before {
+                content: &quot;\e826&quot;;
+        }
+        .icon-flip:before {
+                content: &quot;\e827&quot;;
+        }
+        .icon-gradient:before {
+                content: &quot;\e828&quot;;
+        }
+        .icon-grain:before {
+                content: &quot;\e829&quot;;
+        }
+        .icon-grid-off:before {
+                content: &quot;\e82a&quot;;
+        }
+        .icon-grid-on:before {
+                content: &quot;\e82b&quot;;
+        }
+        .icon-hdr-off:before {
+                content: &quot;\e82c&quot;;
+        }
+        .icon-hdr-on:before {
+                content: &quot;\e82d&quot;;
+        }
+        .icon-hdr-strong:before {
+                content: &quot;\e82e&quot;;
+        }
+        .icon-hdr-weak:before {
+                content: &quot;\e82f&quot;;
+        }
+        .icon-healing:before {
+                content: &quot;\e830&quot;;
+        }
+        .icon-image:before {
+                content: &quot;\e831&quot;;
+        }
+        .icon-image-aspect-ratio:before {
+                content: &quot;\e832&quot;;
+        }
+        .icon-iso:before {
+                content: &quot;\e833&quot;;
+        }
+        .icon-landscape:before {
+                content: &quot;\e834&quot;;
+        }
+        .icon-leak-add:before {
+                content: &quot;\e835&quot;;
+        }
+        .icon-leak-remove:before {
+                content: &quot;\e836&quot;;
+        }
+        .icon-lens:before {
+                content: &quot;\e837&quot;;
+        }
+        .icon-looks-3:before {
+                content: &quot;\e838&quot;;
+        }
+        .icon-looks-4:before {
+                content: &quot;\e839&quot;;
+        }
+        .icon-looks-5:before {
+                content: &quot;\e83a&quot;;
+        }
+        .icon-looks-6:before {
+                content: &quot;\e83b&quot;;
+        }
+        .icon-looks:before {
+                content: &quot;\e83c&quot;;
+        }
+        .icon-looks-one:before {
+                content: &quot;\e83d&quot;;
+        }
+        .icon-looks-two:before {
+                content: &quot;\e83e&quot;;
+        }
+        .icon-loupe:before {
+                content: &quot;\e83f&quot;;
+        }
+        .icon-movie-creation:before {
+                content: &quot;\e840&quot;;
+        }
+        .icon-nature:before {
+                content: &quot;\e841&quot;;
+        }
+        .icon-nature-people:before {
+                content: &quot;\e842&quot;;
+        }
+        .icon-navigate-before:before {
+                content: &quot;\e843&quot;;
+        }
+        .icon-navigate-next:before {
+                content: &quot;\e844&quot;;
+        }
+        .icon-palette:before {
+                content: &quot;\e845&quot;;
+        }
+        .icon-panorama:before {
+                content: &quot;\e846&quot;;
+        }
+        .icon-panorama-fisheye:before {
+                content: &quot;\e847&quot;;
+        }
+        .icon-panorama-horizontal:before {
+                content: &quot;\e848&quot;;
+        }
+        .icon-panorama-vertical:before {
+                content: &quot;\e849&quot;;
+        }
+        .icon-panorama-wide-angle:before {
+                content: &quot;\e84a&quot;;
+        }
+        .icon-photo:before {
+                content: &quot;\e84b&quot;;
+        }
+        .icon-photo-album:before {
+                content: &quot;\e84c&quot;;
+        }
+        .icon-photo-camera:before {
+                content: &quot;\e84d&quot;;
+        }
+        .icon-photo-library:before {
+                content: &quot;\e84e&quot;;
+        }
+        .icon-portrait:before {
+                content: &quot;\e84f&quot;;
+        }
+        .icon-remove-red-eye:before {
+                content: &quot;\e850&quot;;
+        }
+        .icon-rotate-left:before {
+                content: &quot;\e851&quot;;
+        }
+        .icon-rotate-right:before {
+                content: &quot;\e852&quot;;
+        }
+        .icon-slideshow:before {
+                content: &quot;\e853&quot;;
+        }
+        .icon-straighten:before {
+                content: &quot;\e854&quot;;
+        }
+        .icon-style:before {
+                content: &quot;\e855&quot;;
+        }
+        .icon-switch-camera:before {
+                content: &quot;\e856&quot;;
+        }
+        .icon-switch-video:before {
+                content: &quot;\e857&quot;;
+        }
+        .icon-tag-faces:before {
+                content: &quot;\e858&quot;;
+        }
+        .icon-texture:before {
+                content: &quot;\e859&quot;;
+        }
+        .icon-timelapse:before {
+                content: &quot;\e85a&quot;;
+        }
+        .icon-timer-3:before {
+                content: &quot;\e85b&quot;;
+        }
+        .icon-timer-10:before {
+                content: &quot;\e85c&quot;;
+        }
+        .icon-timer:before {
+                content: &quot;\e85d&quot;;
+        }
+        .icon-timer-auto:before {
+                content: &quot;\e85e&quot;;
+        }
+        .icon-timer-off:before {
+                content: &quot;\e85f&quot;;
+        }
+        .icon-tonality:before {
+                content: &quot;\e860&quot;;
+        }
+        .icon-transform:before {
+                content: &quot;\e861&quot;;
+        }
+        .icon-tune:before {
+                content: &quot;\e862&quot;;
+        }
+        .icon-wb-auto:before {
+                content: &quot;\e863&quot;;
+        }
+        .icon-wb-cloudy:before {
+                content: &quot;\e864&quot;;
+        }
+        .icon-wb-incandescent:before {
+                content: &quot;\e865&quot;;
+        }
+        .icon-wb-irradescent:before {
+                content: &quot;\e866&quot;;
+        }
+        .icon-wb-sunny:before {
+                content: &quot;\e867&quot;;
+        }
+        .icon-beenhere:before {
+                content: &quot;\e868&quot;;
+        }
+        .icon-directions:before {
+                content: &quot;\e869&quot;;
+        }
+        .icon-directions-bike:before {
+                content: &quot;\e86a&quot;;
+        }
+        .icon-directions-bus:before {
+                content: &quot;\e86b&quot;;
+        }
+        .icon-directions-car:before {
+                content: &quot;\e86c&quot;;
+        }
+        .icon-directions-ferry:before {
+                content: &quot;\e86d&quot;;
+        }
+        .icon-directions-subway:before {
+                content: &quot;\e86e&quot;;
+        }
+        .icon-directions-train:before {
+                content: &quot;\e86f&quot;;
+        }
+        .icon-directions-transit:before {
+                content: &quot;\e870&quot;;
+        }
+        .icon-directions-walk:before {
+                content: &quot;\e871&quot;;
+        }
+        .icon-flight:before {
+                content: &quot;\e872&quot;;
+        }
+        .icon-hotel:before {
+                content: &quot;\e873&quot;;
+        }
+        .icon-layers:before {
+                content: &quot;\e874&quot;;
+        }
+        .icon-layers-clear:before {
+                content: &quot;\e875&quot;;
+        }
+        .icon-local-airport:before {
+                content: &quot;\e876&quot;;
+        }
+        .icon-local-atm:before {
+                content: &quot;\e877&quot;;
+        }
+        .icon-local-attraction:before {
+                content: &quot;\e878&quot;;
+        }
+        .icon-local-bar:before {
+                content: &quot;\e879&quot;;
+        }
+        .icon-local-cafe:before {
+                content: &quot;\e87a&quot;;
+        }
+        .icon-local-car-wash:before {
+                content: &quot;\e87b&quot;;
+        }
+        .icon-local-convenience-store:before {
+                content: &quot;\e87c&quot;;
+        }
+        .icon-local-drink:before {
+                content: &quot;\e87d&quot;;
+        }
+        .icon-local-florist:before {
+                content: &quot;\e87e&quot;;
+        }
+        .icon-local-gas-station:before {
+                content: &quot;\e87f&quot;;
+        }
+        .icon-local-grocery-store:before {
+                content: &quot;\e880&quot;;
+        }
+        .icon-local-hospital:before {
+                content: &quot;\e881&quot;;
+        }
+        .icon-local-hotel:before {
+                content: &quot;\e882&quot;;
+        }
+        .icon-local-laundry-service:before {
+                content: &quot;\e883&quot;;
+        }
+        .icon-local-library:before {
+                content: &quot;\e884&quot;;
+        }
+        .icon-local-mall:before {
+                content: &quot;\e885&quot;;
+        }
+        .icon-local-movies:before {
+                content: &quot;\e886&quot;;
+        }
+        .icon-local-offer:before {
+                content: &quot;\e887&quot;;
+        }
+        .icon-local-parking:before {
+                content: &quot;\e888&quot;;
+        }
+        .icon-local-pharmacy:before {
+                content: &quot;\e889&quot;;
+        }
+        .icon-local-phone:before {
+                content: &quot;\e88a&quot;;
+        }
+        .icon-local-pizza:before {
+                content: &quot;\e88b&quot;;
+        }
+        .icon-local-play:before {
+                content: &quot;\e88c&quot;;
+        }
+        .icon-local-post-office:before {
+                content: &quot;\e88d&quot;;
+        }
+        .icon-local-print-shop:before {
+                content: &quot;\e88e&quot;;
+        }
+        .icon-local-restaurant:before {
+                content: &quot;\e88f&quot;;
+        }
+        .icon-local-see:before {
+                content: &quot;\e890&quot;;
+        }
+        .icon-local-shipping:before {
+                content: &quot;\e891&quot;;
+        }
+        .icon-local-taxi:before {
+                content: &quot;\e892&quot;;
+        }
+        .icon-location-history:before {
+                content: &quot;\e893&quot;;
+        }
+        .icon-map:before {
+                content: &quot;\e894&quot;;
+        }
+        .icon-my-location:before {
+                content: &quot;\e895&quot;;
+        }
+        .icon-navigation:before {
+                content: &quot;\e896&quot;;
+        }
+        .icon-pin-drop:before {
+                content: &quot;\e897&quot;;
+        }
+        .icon-place:before {
+                content: &quot;\e898&quot;;
+        }
+        .icon-rate-review:before {
+                content: &quot;\e899&quot;;
+        }
+        .icon-restaurant-menu:before {
+                content: &quot;\e89a&quot;;
+        }
+        .icon-satellite:before {
+                content: &quot;\e89b&quot;;
+        }
+        .icon-store-mall-directory:before {
+                content: &quot;\e89c&quot;;
+        }
+        .icon-terrain:before {
+                content: &quot;\e89d&quot;;
+        }
+        .icon-traff:before {
+                content: &quot;\e89e&quot;;
+        }
+        .icon-apps:before {
+                content: &quot;\e89f&quot;;
+        }
+        .icon-arrow-back:before {
+                content: &quot;\e8a0&quot;;
+        }
+        .icon-arrow-drop-down:before {
+                content: &quot;\e8a1&quot;;
+        }
+        .icon-arrow-drop-down-circle:before {
+                content: &quot;\e8a2&quot;;
+        }
+        .icon-arrow-drop-up:before {
+                content: &quot;\e8a3&quot;;
+        }
+        .icon-arrow-forward:before {
+                content: &quot;\e8a4&quot;;
+        }
+        .icon-cancel:before {
+                content: &quot;\e8a5&quot;;
+        }
+        .icon-check:before {
+                content: &quot;\e8a6&quot;;
+        }
+        .icon-chevron-left:before {
+                content: &quot;\e8a7&quot;;
+        }
+        .icon-chevron-right:before {
+                content: &quot;\e8a8&quot;;
+        }
+        .icon-close:before {
+                content: &quot;\e8a9&quot;;
+        }
+        .icon-expand-less:before {
+                content: &quot;\e8aa&quot;;
+        }
+        .icon-expand-more:before {
+                content: &quot;\e8ab&quot;;
+        }
+        .icon-fullscreen:before {
+                content: &quot;\e8ac&quot;;
+        }
+        .icon-fullscreen-exit:before {
+                content: &quot;\e8ad&quot;;
+        }
+        .icon-menu:before {
+                content: &quot;\e8ae&quot;;
+        }
+        .icon-more-horiz:before {
+                content: &quot;\e8af&quot;;
+        }
+        .icon-more-vert:before {
+                content: &quot;\e8b0&quot;;
+        }
+        .icon-refresh:before {
+                content: &quot;\e8b1&quot;;
+        }
+        .icon-unfold-less:before {
+                content: &quot;\e8b2&quot;;
+        }
+        .icon-unfold-more:before {
+                content: &quot;\e8b3&quot;;
+        }
+        .icon-adb:before {
+                content: &quot;\e8b4&quot;;
+        }
+        .icon-bluetooth-audio:before {
+                content: &quot;\e8b5&quot;;
+        }
+        .icon-disc-full:before {
+                content: &quot;\e8b6&quot;;
+        }
+        .icon-dnd-forwardslash:before {
+                content: &quot;\e8b7&quot;;
+        }
+        .icon-do-not-disturb:before {
+                content: &quot;\e8b8&quot;;
+        }
+        .icon-drive-eta:before {
+                content: &quot;\e8b9&quot;;
+        }
+        .icon-event-available:before {
+                content: &quot;\e8ba&quot;;
+        }
+        .icon-event-busy:before {
+                content: &quot;\e8bb&quot;;
+        }
+        .icon-event-note:before {
+                content: &quot;\e8bc&quot;;
+        }
+        .icon-folder-special:before {
+                content: &quot;\e8bd&quot;;
+        }
+        .icon-mms:before {
+                content: &quot;\e8be&quot;;
+        }
+        .icon-more:before {
+                content: &quot;\e8bf&quot;;
+        }
+        .icon-network-locked:before {
+                content: &quot;\e8c0&quot;;
+        }
+        .icon-phone-bluetooth-speaker:before {
+                content: &quot;\e8c1&quot;;
+        }
+        .icon-phone-forwarded:before {
+                content: &quot;\e8c2&quot;;
+        }
+        .icon-phone-in-talk:before {
+                content: &quot;\e8c3&quot;;
+        }
+        .icon-phone-locked:before {
+                content: &quot;\e8c4&quot;;
+        }
+        .icon-phone-missed:before {
+                content: &quot;\e8c5&quot;;
+        }
+        .icon-phone-paused:before {
+                content: &quot;\e8c6&quot;;
+        }
+        .icon-play-download:before {
+                content: &quot;\e8c7&quot;;
+        }
+        .icon-play-install:before {
+                content: &quot;\e8c8&quot;;
+        }
+        .icon-sd-card:before {
+                content: &quot;\e8c9&quot;;
+        }
+        .icon-sim-card-alert:before {
+                content: &quot;\e8ca&quot;;
+        }
+        .icon-sms:before {
+                content: &quot;\e8cb&quot;;
+        }
+        .icon-sms-failed:before {
+                content: &quot;\e8cc&quot;;
+        }
+        .icon-sync:before {
+                content: &quot;\e8cd&quot;;
+        }
+        .icon-sync-disabled:before {
+                content: &quot;\e8ce&quot;;
+        }
+        .icon-sync-problem:before {
+                content: &quot;\e8cf&quot;;
+        }
+        .icon-system-update:before {
+                content: &quot;\e8d0&quot;;
+        }
+        .icon-tap-and-play:before {
+                content: &quot;\e8d1&quot;;
+        }
+        .icon-time-to-leave:before {
+                content: &quot;\e8d2&quot;;
+        }
+        .icon-vibration:before {
+                content: &quot;\e8d3&quot;;
+        }
+        .icon-voice-chat:before {
+                content: &quot;\e8d4&quot;;
+        }
+        .icon-vpn-lock:before {
+                content: &quot;\e8d5&quot;;
+        }
+        .icon-cake:before {
+                content: &quot;\e8d6&quot;;
+        }
+        .icon-domain:before {
+                content: &quot;\e8d7&quot;;
+        }
+        .icon-group:before {
+                content: &quot;\e8d8&quot;;
+        }
+        .icon-group-add:before {
+                content: &quot;\e8d9&quot;;
+        }
+        .icon-location-city:before {
+                content: &quot;\e8da&quot;;
+        }
+        .icon-mood:before {
+                content: &quot;\e8db&quot;;
+        }
+        .icon-notifications:before {
+                content: &quot;\e8dc&quot;;
+        }
+        .icon-notifications-none:before {
+                content: &quot;\e8dd&quot;;
+        }
+        .icon-notifications-off:before {
+                content: &quot;\e8de&quot;;
+        }
+        .icon-notifications-on:before {
+                content: &quot;\e8df&quot;;
+        }
+        .icon-notifications-paused:before {
+                content: &quot;\e8e0&quot;;
+        }
+        .icon-pages:before {
+                content: &quot;\e8e1&quot;;
+        }
+        .icon-party-mode:before {
+                content: &quot;\e8e2&quot;;
+        }
+        .icon-people:before {
+                content: &quot;\e8e3&quot;;
+        }
+        .icon-people-outline:before {
+                content: &quot;\e8e4&quot;;
+        }
+        .icon-person:before {
+                content: &quot;\e8e5&quot;;
+        }
+        .icon-person-add:before {
+                content: &quot;\e8e6&quot;;
+        }
+        .icon-person-outline:before {
+                content: &quot;\e8e7&quot;;
+        }
+        .icon-plus-one:before {
+                content: &quot;\e8e8&quot;;
+        }
+        .icon-poll:before {
+                content: &quot;\e8e9&quot;;
+        }
+        .icon-publ:before {
+                content: &quot;\e8ea&quot;;
+        }
+        .icon-school:before {
+                content: &quot;\e8eb&quot;;
+        }
+        .icon-share:before {
+                content: &quot;\e8ec&quot;;
+        }
+        .icon-whatshot:before {
+                content: &quot;\e8ed&quot;;
+        }
+        .icon-check-box:before {
+                content: &quot;\e8ee&quot;;
+        }
+        .icon-check-box-outline-blank:before {
+                content: &quot;\e8ef&quot;;
+        }
+        .icon-radio-button-off:before {
+                content: &quot;\e8f0&quot;;
+        }
+        .icon-radio-button-on:before {
+                content: &quot;\e8f1&quot;;
+        }
+        .icon-star:before {
+                content: &quot;\e8f2&quot;;
+        }
+        .icon-star-half:before {
+                content: &quot;\e8f3&quot;;
+        }
+        .icon-star-outline:before {
+                content: &quot;\e8f4&quot;;
+        }
+
+ }" data-collapsed="@mixin md-icons() { ... }"><code>@mixin md-icons() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>material design icon classes</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section><section class="main__item container item" id="mixin-material-icon-sizes"><h3 class="item__heading"><a class="item__name" href="#mixin-material-icon-sizes">material-icon-sizes</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin material-icon-sizes() { 
+  .md{
+    &amp;.size-24{
+      font-size:24px;
+      height:24px !important;
+      width:24px !important;
+    }
+    &amp;.size-48{
+      font-size:48px;
+      height:48px !important;
+      width:48px !important;
+    }
+    &amp;.size-72{
+      height:72px !important;
+      width:72px !important;
+    }
+    &amp;.size-96{
+      height:96px !important;
+      width:96px !important;
+    }
+  }
+ }" data-collapsed="@mixin material-icon-sizes() { ... }"><code>@mixin material-icon-sizes() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>convenience class for icon font sizes</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p></section></section><section class="main__sub-section" id="undefined-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="variable-MD-Icons"><h3 class="item__heading"><a class="item__name" href="#variable-MD-Icons">MD-Icons</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$MD-Icons: (
+        3d-rotation: &quot;\e600&quot;,
+        accessibility: &quot;\e601&quot;,
+        account-balance: &quot;\e602&quot;,
+        account-balance-wallet: &quot;\e603&quot;,
+        account-box: &quot;\e604&quot;,
+        account-child: &quot;\e605&quot;,
+        account-circle: &quot;\e606&quot;,
+        add-shopping-cart: &quot;\e607&quot;,
+        alarm: &quot;\e608&quot;,
+        alarm-add: &quot;\e609&quot;,
+        alarm-off: &quot;\e60a&quot;,
+        alarm-on: &quot;\e60b&quot;,
+        android: &quot;\e60c&quot;,
+        announcement: &quot;\e60d&quot;,
+        aspect-ratio: &quot;\e60e&quot;,
+        assessment: &quot;\e60f&quot;,
+        assignment: &quot;\e610&quot;,
+        assignment-ind: &quot;\e611&quot;,
+        assignment-late: &quot;\e612&quot;,
+        assignment-return: &quot;\e613&quot;,
+        assignment-returned: &quot;\e614&quot;,
+        assignment-turned-in: &quot;\e615&quot;,
+        autorenew: &quot;\e616&quot;,
+        backup: &quot;\e617&quot;,
+        book: &quot;\e618&quot;,
+        bookmark: &quot;\e619&quot;,
+        bookmark-outline: &quot;\e61a&quot;,
+        bug-report: &quot;\e61b&quot;,
+        cached: &quot;\e61c&quot;,
+        class: &quot;\e61d&quot;,
+        credit-card: &quot;\e61e&quot;,
+        dashboard: &quot;\e61f&quot;,
+        delete: &quot;\e620&quot;,
+        description: &quot;\e621&quot;,
+        dns: &quot;\e622&quot;,
+        done: &quot;\e623&quot;,
+        done-all: &quot;\e624&quot;,
+        event: &quot;\e625&quot;,
+        exit-to-app: &quot;\e626&quot;,
+        explore: &quot;\e627&quot;,
+        extension: &quot;\e628&quot;,
+        face-unlock: &quot;\e629&quot;,
+        favorite: &quot;\e62a&quot;,
+        favorite-outline: &quot;\e62b&quot;,
+        find-in-page: &quot;\e62c&quot;,
+        find-replace: &quot;\e62d&quot;,
+        flip-to-back: &quot;\e62e&quot;,
+        flip-to-front: &quot;\e62f&quot;,
+        get-app: &quot;\e630&quot;,
+        grade: &quot;\e631&quot;,
+        group-work: &quot;\e632&quot;,
+        help: &quot;\e633&quot;,
+        highlight-remove: &quot;\e634&quot;,
+        history: &quot;\e635&quot;,
+        home: &quot;\e636&quot;,
+        https: &quot;\e637&quot;,
+        info: &quot;\e638&quot;,
+        info-outline: &quot;\e639&quot;,
+        input: &quot;\e63a&quot;,
+        invert-colors: &quot;\e63b&quot;,
+        label: &quot;\e63c&quot;,
+        label-outline: &quot;\e63d&quot;,
+        language: &quot;\e63e&quot;,
+        launch: &quot;\e63f&quot;,
+        list: &quot;\e640&quot;,
+        lock: &quot;\e641&quot;,
+        lock-open: &quot;\e642&quot;,
+        lock-outline: &quot;\e643&quot;,
+        loyalty: &quot;\e644&quot;,
+        markunread-mailbox: &quot;\e645&quot;,
+        &quot;note-add&quot;: &quot;\e646&quot;,
+        open-in-browser: &quot;\e647&quot;,
+        open-in-new: &quot;\e648&quot;,
+        open-with: &quot;\e649&quot;,
+        pageview: &quot;\e64a&quot;,
+        payment: &quot;\e64b&quot;,
+        perm-camera-m: &quot;\e64c&quot;,
+        perm-contact-cal: &quot;\e64d&quot;,
+        perm-data-setting: &quot;\e64e&quot;,
+        perm-device-info: &quot;\e64f&quot;,
+        perm-identity: &quot;\e650&quot;,
+        perm-media: &quot;\e651&quot;,
+        perm-phone-msg: &quot;\e652&quot;,
+        perm-scan-wifi: &quot;\e653&quot;,
+        picture-in-picture: &quot;\e654&quot;,
+        polymer: &quot;\e655&quot;,
+        print: &quot;\e656&quot;,
+        query-builder: &quot;\e657&quot;,
+        question-answer: &quot;\e658&quot;,
+        receipt: &quot;\e659&quot;,
+        redeem: &quot;\e65a&quot;,
+        reorder: &quot;\e65b&quot;,
+        report-problem: &quot;\e65c&quot;,
+        restore: &quot;\e65d&quot;,
+        room: &quot;\e65e&quot;,
+        schedule: &quot;\e65f&quot;,
+        search: &quot;\e660&quot;,
+        settings: &quot;\e661&quot;,
+        settings-applications: &quot;\e662&quot;,
+        settings-backup-restore: &quot;\e663&quot;,
+        settings-bluetooth: &quot;\e664&quot;,
+        settings-cell: &quot;\e665&quot;,
+        settings-display: &quot;\e666&quot;,
+        settings-ethernet: &quot;\e667&quot;,
+        settings-input-antenna: &quot;\e668&quot;,
+        settings-input-component: &quot;\e669&quot;,
+        settings-input-composite: &quot;\e66a&quot;,
+        settings-input-hdmi: &quot;\e66b&quot;,
+        settings-input-svideo: &quot;\e66c&quot;,
+        settings-overscan: &quot;\e66d&quot;,
+        settings-phone: &quot;\e66e&quot;,
+        settings-power: &quot;\e66f&quot;,
+        settings-remote: &quot;\e670&quot;,
+        settings-voice: &quot;\e671&quot;,
+        shop: &quot;\e672&quot;,
+        shop-two: &quot;\e673&quot;,
+        shopping-basket: &quot;\e674&quot;,
+        shopping-cart: &quot;\e675&quot;,
+        speaker-notes: &quot;\e676&quot;,
+        spellcheck: &quot;\e677&quot;,
+        star-rate: &quot;\e678&quot;,
+        stars: &quot;\e679&quot;,
+        store: &quot;\e67a&quot;,
+        subject: &quot;\e67b&quot;,
+        supervisor-account: &quot;\e67c&quot;,
+        swap-horiz: &quot;\e67d&quot;,
+        swap-vert: &quot;\e67e&quot;,
+        swap-vert-circle: &quot;\e67f&quot;,
+        system-update-tv: &quot;\e680&quot;,
+        tab: &quot;\e681&quot;,
+        tab-unselected: &quot;\e682&quot;,
+        theaters: &quot;\e683&quot;,
+        thumb-down: &quot;\e684&quot;,
+        thumb-up: &quot;\e685&quot;,
+        thumbs-up-down: &quot;\e686&quot;,
+        toc: &quot;\e687&quot;,
+        today: &quot;\e688&quot;,
+        track-changes: &quot;\e689&quot;,
+        translate: &quot;\e68a&quot;,
+        trending-down: &quot;\e68b&quot;,
+        trending-neutral: &quot;\e68c&quot;,
+        trending-up: &quot;\e68d&quot;,
+        turned-in: &quot;\e68e&quot;,
+        turned-in-not: &quot;\e68f&quot;,
+        verified-user: &quot;\e690&quot;,
+        view-agenda: &quot;\e691&quot;,
+        view-array: &quot;\e692&quot;,
+        view-carousel: &quot;\e693&quot;,
+        view-column: &quot;\e694&quot;,
+        view-day: &quot;\e695&quot;,
+        view-headline: &quot;\e696&quot;,
+        view-list: &quot;\e697&quot;,
+        view-module: &quot;\e698&quot;,
+        view-quilt: &quot;\e699&quot;,
+        view-stream: &quot;\e69a&quot;,
+        view-week: &quot;\e69b&quot;,
+        visibility: &quot;\e69c&quot;,
+        visibility-off: &quot;\e69d&quot;,
+        wallet-giftcard: &quot;\e69e&quot;,
+        wallet-membership: &quot;\e69f&quot;,
+        wallet-travel: &quot;\e6a0&quot;,
+        work: &quot;\e6a1&quot;,
+        error: &quot;\e6a2&quot;,
+        warning: &quot;\e6a3&quot;,
+        album: &quot;\e6a4&quot;,
+        av-timer: &quot;\e6a5&quot;,
+        closed-caption: &quot;\e6a6&quot;,
+        equalizer: &quot;\e6a7&quot;,
+        explicit: &quot;\e6a8&quot;,
+        fast-forward: &quot;\e6a9&quot;,
+        fast-rewind: &quot;\e6aa&quot;,
+        games: &quot;\e6ab&quot;,
+        hearing: &quot;\e6ac&quot;,
+        high-quality: &quot;\e6ad&quot;,
+        loop: &quot;\e6ae&quot;,
+        mic: &quot;\e6af&quot;,
+        mnone: &quot;\e6b0&quot;,
+        moff: &quot;\e6b1&quot;,
+        movie: &quot;\e6b2&quot;,
+        my-library-add: &quot;\e6b3&quot;,
+        my-library-books: &quot;\e6b4&quot;,
+        my-library-mus: &quot;\e6b5&quot;,
+        new-releases: &quot;\e6b6&quot;,
+        &quot;not-interested&quot;: &quot;\e6b7&quot;,
+        pause: &quot;\e6b8&quot;,
+        pause-circle-fill: &quot;\e6b9&quot;,
+        pause-circle-outline: &quot;\e6ba&quot;,
+        play-arrow: &quot;\e6bb&quot;,
+        play-circle-fill: &quot;\e6bc&quot;,
+        play-circle-outline: &quot;\e6bd&quot;,
+        play-shopping-bag: &quot;\e6be&quot;,
+        playlist-add: &quot;\e6bf&quot;,
+        queue: &quot;\e6c0&quot;,
+        queue-mus: &quot;\e6c1&quot;,
+        radio: &quot;\e6c2&quot;,
+        recent-actors: &quot;\e6c3&quot;,
+        repeat: &quot;\e6c4&quot;,
+        repeat-one: &quot;\e6c5&quot;,
+        replay: &quot;\e6c6&quot;,
+        shuffle: &quot;\e6c7&quot;,
+        skip-next: &quot;\e6c8&quot;,
+        skip-previous: &quot;\e6c9&quot;,
+        snooze: &quot;\e6ca&quot;,
+        stop: &quot;\e6cb&quot;,
+        subtitles: &quot;\e6cc&quot;,
+        surround-sound: &quot;\e6cd&quot;,
+        video-collection: &quot;\e6ce&quot;,
+        videocam: &quot;\e6cf&quot;,
+        videocam-off: &quot;\e6d0&quot;,
+        volume-down: &quot;\e6d1&quot;,
+        volume-mute: &quot;\e6d2&quot;,
+        volume-off: &quot;\e6d3&quot;,
+        volume-up: &quot;\e6d4&quot;,
+        web: &quot;\e6d5&quot;,
+        business: &quot;\e6d6&quot;,
+        call: &quot;\e6d7&quot;,
+        call-end: &quot;\e6d8&quot;,
+        call-made: &quot;\e6d9&quot;,
+        call-merge: &quot;\e6da&quot;,
+        call-missed: &quot;\e6db&quot;,
+        call-received: &quot;\e6dc&quot;,
+        call-split: &quot;\e6dd&quot;,
+        chat: &quot;\e6de&quot;,
+        clear-all: &quot;\e6df&quot;,
+        comment: &quot;\e6e0&quot;,
+        contacts: &quot;\e6e1&quot;,
+        dialer-sip: &quot;\e6e2&quot;,
+        dialpad: &quot;\e6e3&quot;,
+        dnd-on: &quot;\e6e4&quot;,
+        email: &quot;\e6e5&quot;,
+        forum: &quot;\e6e6&quot;,
+        import-export: &quot;\e6e7&quot;,
+        invert-colors-off: &quot;\e6e8&quot;,
+        invert-colors-on: &quot;\e6e9&quot;,
+        live-help: &quot;\e6ea&quot;,
+        location-off: &quot;\e6eb&quot;,
+        location-on: &quot;\e6ec&quot;,
+        message: &quot;\e6ed&quot;,
+        messenger: &quot;\e6ee&quot;,
+        no-sim: &quot;\e6ef&quot;,
+        phone: &quot;\e6f0&quot;,
+        portable-wifi-off: &quot;\e6f1&quot;,
+        quick-contacts-dialer: &quot;\e6f2&quot;,
+        quick-contacts-mail: &quot;\e6f3&quot;,
+        ring-volume: &quot;\e6f4&quot;,
+        stay-current-landscape: &quot;\e6f5&quot;,
+        stay-current-portrait: &quot;\e6f6&quot;,
+        stay-primary-landscape: &quot;\e6f7&quot;,
+        stay-primary-portrait: &quot;\e6f8&quot;,
+        swap-calls: &quot;\e6f9&quot;,
+        textsms: &quot;\e6fa&quot;,
+        voicemail: &quot;\e6fb&quot;,
+        vpn-key: &quot;\e6fc&quot;,
+        add: &quot;\e6fd&quot;,
+        add-box: &quot;\e6fe&quot;,
+        add-circle: &quot;\e6ff&quot;,
+        add-circle-outline: &quot;\e700&quot;,
+        archive: &quot;\e701&quot;,
+        backspace: &quot;\e702&quot;,
+        block: &quot;\e703&quot;,
+        clear: &quot;\e704&quot;,
+        content-copy: &quot;\e705&quot;,
+        content-cut: &quot;\e706&quot;,
+        content-paste: &quot;\e707&quot;,
+        create: &quot;\e708&quot;,
+        drafts: &quot;\e709&quot;,
+        filter-list: &quot;\e70a&quot;,
+        flag: &quot;\e70b&quot;,
+        forward: &quot;\e70c&quot;,
+        gesture: &quot;\e70d&quot;,
+        inbox: &quot;\e70e&quot;,
+        link: &quot;\e70f&quot;,
+        mail: &quot;\e710&quot;,
+        markunread: &quot;\e711&quot;,
+        redo: &quot;\e712&quot;,
+        remove: &quot;\e713&quot;,
+        remove-circle: &quot;\e714&quot;,
+        remove-circle-outline: &quot;\e715&quot;,
+        reply: &quot;\e716&quot;,
+        reply-all: &quot;\e717&quot;,
+        report: &quot;\e718&quot;,
+        save: &quot;\e719&quot;,
+        select-all: &quot;\e71a&quot;,
+        send: &quot;\e71b&quot;,
+        sort: &quot;\e71c&quot;,
+        text-format: &quot;\e71d&quot;,
+        undo: &quot;\e71e&quot;,
+        access-alarm: &quot;\e71f&quot;,
+        access-alarms: &quot;\e720&quot;,
+        access-time: &quot;\e721&quot;,
+        add-alarm: &quot;\e722&quot;,
+        airplanemode-off: &quot;\e723&quot;,
+        airplanemode-on: &quot;\e724&quot;,
+        battery-20: &quot;\e725&quot;,
+        battery-30: &quot;\e726&quot;,
+        battery-50: &quot;\e727&quot;,
+        battery-60: &quot;\e728&quot;,
+        battery-80: &quot;\e729&quot;,
+        battery-90: &quot;\e72a&quot;,
+        battery-alert: &quot;\e72b&quot;,
+        battery-charging-20: &quot;\e72c&quot;,
+        battery-charging-30: &quot;\e72d&quot;,
+        battery-charging-50: &quot;\e72e&quot;,
+        battery-charging-60: &quot;\e72f&quot;,
+        battery-charging-80: &quot;\e730&quot;,
+        battery-charging-90: &quot;\e731&quot;,
+        battery-charging-full: &quot;\e732&quot;,
+        battery-full: &quot;\e733&quot;,
+        battery-std: &quot;\e734&quot;,
+        battery-unknown: &quot;\e735&quot;,
+        bluetooth: &quot;\e736&quot;,
+        bluetooth-connected: &quot;\e737&quot;,
+        bluetooth-disabled: &quot;\e738&quot;,
+        bluetooth-searching: &quot;\e739&quot;,
+        brightness-auto: &quot;\e73a&quot;,
+        brightness-high: &quot;\e73b&quot;,
+        brightness-low: &quot;\e73c&quot;,
+        brightness-medium: &quot;\e73d&quot;,
+        data-usage: &quot;\e73e&quot;,
+        developer-mode: &quot;\e73f&quot;,
+        devices: &quot;\e740&quot;,
+        dvr: &quot;\e741&quot;,
+        gps-fixed: &quot;\e742&quot;,
+        gps-not-fixed: &quot;\e743&quot;,
+        gps-off: &quot;\e744&quot;,
+        location-disabled: &quot;\e745&quot;,
+        location-searching: &quot;\e746&quot;,
+        multitrack-audio: &quot;\e747&quot;,
+        network-cell: &quot;\e748&quot;,
+        network-wifi: &quot;\e749&quot;,
+        nfc: &quot;\e74a&quot;,
+        now-wallpaper: &quot;\e74b&quot;,
+        now-widgets: &quot;\e74c&quot;,
+        screen-lock-landscape: &quot;\e74d&quot;,
+        screen-lock-portrait: &quot;\e74e&quot;,
+        screen-lock-rotation: &quot;\e74f&quot;,
+        screen-rotation: &quot;\e750&quot;,
+        sd-storage: &quot;\e751&quot;,
+        settings-system-daydream: &quot;\e752&quot;,
+        signal-cellular-0-bar: &quot;\e753&quot;,
+        signal-cellular-1-bar: &quot;\e754&quot;,
+        signal-cellular-2-bar: &quot;\e755&quot;,
+        signal-cellular-3-bar: &quot;\e756&quot;,
+        signal-cellular-4-bar: &quot;\e757&quot;,
+        signal-cellular-connected-no-internet-0-bar: &quot;\e758&quot;,
+        signal-cellular-connected-no-internet-1-bar: &quot;\e759&quot;,
+        signal-cellular-connected-no-internet-2-bar: &quot;\e75a&quot;,
+        signal-cellular-connected-no-internet-3-bar: &quot;\e75b&quot;,
+        signal-cellular-connected-no-internet-4-bar: &quot;\e75c&quot;,
+        signal-cellular-no-sim: &quot;\e75d&quot;,
+        signal-cellular-null: &quot;\e75e&quot;,
+        signal-cellular-off: &quot;\e75f&quot;,
+        signal-wifi-0-bar: &quot;\e760&quot;,
+        signal-wifi-1-bar: &quot;\e761&quot;,
+        signal-wifi-2-bar: &quot;\e762&quot;,
+        signal-wifi-3-bar: &quot;\e763&quot;,
+        signal-wifi-4-bar: &quot;\e764&quot;,
+        signal-wifi-off: &quot;\e765&quot;,
+        signal-wifi-statusbar-1-bar: &quot;\e766&quot;,
+        signal-wifi-statusbar-2-bar: &quot;\e767&quot;,
+        signal-wifi-statusbar-3-bar: &quot;\e768&quot;,
+        signal-wifi-statusbar-4-bar: &quot;\e769&quot;,
+        signal-wifi-statusbar-connected-no-internet-1: &quot;\e76a&quot;,
+        signal-wifi-statusbar-connected-no-internet-2: &quot;\e76b&quot;,
+        signal-wifi-statusbar-connected-no-internet-3: &quot;\e76c&quot;,
+        signal-wifi-statusbar-connected-no-internet-4: &quot;\e76d&quot;,
+        signal-wifi-statusbar-connected-no-internet: &quot;\e76e&quot;,
+        signal-wifi-statusbar-not-connected: &quot;\e76f&quot;,
+        signal-wifi-statusbar-null: &quot;\e770&quot;,
+        storage: &quot;\e771&quot;,
+        usb: &quot;\e772&quot;,
+        wifi-lock: &quot;\e773&quot;,
+        wifi-tethering: &quot;\e774&quot;,
+        attach-file: &quot;\e775&quot;,
+        attach-money: &quot;\e776&quot;,
+        border-all: &quot;\e777&quot;,
+        border-bottom: &quot;\e778&quot;,
+        border-clear: &quot;\e779&quot;,
+        border-color: &quot;\e77a&quot;,
+        border-horizontal: &quot;\e77b&quot;,
+        border-inner: &quot;\e77c&quot;,
+        border-left: &quot;\e77d&quot;,
+        border-outer: &quot;\e77e&quot;,
+        border-right: &quot;\e77f&quot;,
+        border-style: &quot;\e780&quot;,
+        border-top: &quot;\e781&quot;,
+        border-vertical: &quot;\e782&quot;,
+        format-align-center: &quot;\e783&quot;,
+        format-align-justify: &quot;\e784&quot;,
+        format-align-left: &quot;\e785&quot;,
+        format-align-right: &quot;\e786&quot;,
+        format-bold: &quot;\e787&quot;,
+        format-clear: &quot;\e788&quot;,
+        format-color-fill: &quot;\e789&quot;,
+        format-color-reset: &quot;\e78a&quot;,
+        format-color-text: &quot;\e78b&quot;,
+        format-indent-decrease: &quot;\e78c&quot;,
+        format-indent-increase: &quot;\e78d&quot;,
+        format-ital: &quot;\e78e&quot;,
+        format-line-spacing: &quot;\e78f&quot;,
+        format-list-bulleted: &quot;\e790&quot;,
+        format-list-numbered: &quot;\e791&quot;,
+        format-paint: &quot;\e792&quot;,
+        format-quote: &quot;\e793&quot;,
+        format-size: &quot;\e794&quot;,
+        format-strikethrough: &quot;\e795&quot;,
+        format-textdirection-l-to-r: &quot;\e796&quot;,
+        format-textdirection-r-to-l: &quot;\e797&quot;,
+        format-underline: &quot;\e798&quot;,
+        functions: &quot;\e799&quot;,
+        insert-chart: &quot;\e79a&quot;,
+        insert-comment: &quot;\e79b&quot;,
+        insert-drive-file: &quot;\e79c&quot;,
+        insert-emoticon: &quot;\e79d&quot;,
+        insert-invitation: &quot;\e79e&quot;,
+        insert-link: &quot;\e79f&quot;,
+        insert-photo: &quot;\e7a0&quot;,
+        merge-type: &quot;\e7a1&quot;,
+        mode-comment: &quot;\e7a2&quot;,
+        mode-edit: &quot;\e7a3&quot;,
+        publish: &quot;\e7a4&quot;,
+        vertical-align-bottom: &quot;\e7a5&quot;,
+        vertical-align-center: &quot;\e7a6&quot;,
+        vertical-align-top: &quot;\e7a7&quot;,
+        wrap-text: &quot;\e7a8&quot;,
+        attachment: &quot;\e7a9&quot;,
+        cloud: &quot;\e7aa&quot;,
+        cloud-circle: &quot;\e7ab&quot;,
+        cloud-done: &quot;\e7ac&quot;,
+        cloud-download: &quot;\e7ad&quot;,
+        cloud-off: &quot;\e7ae&quot;,
+        cloud-queue: &quot;\e7af&quot;,
+        cloud-upload: &quot;\e7b0&quot;,
+        file-download: &quot;\e7b1&quot;,
+        file-upload: &quot;\e7b2&quot;,
+        folder: &quot;\e7b3&quot;,
+        folder-open: &quot;\e7b4&quot;,
+        folder-shared: &quot;\e7b5&quot;,
+        cast: &quot;\e7b6&quot;,
+        cast-connected: &quot;\e7b7&quot;,
+        computer: &quot;\e7b8&quot;,
+        desktop-mac: &quot;\e7b9&quot;,
+        desktop-windows: &quot;\e7ba&quot;,
+        dock: &quot;\e7bb&quot;,
+        gamepad: &quot;\e7bc&quot;,
+        headset: &quot;\e7bd&quot;,
+        headset-m: &quot;\e7be&quot;,
+        keyboard: &quot;\e7bf&quot;,
+        keyboard-alt: &quot;\e7c0&quot;,
+        keyboard-arrow-down: &quot;\e7c1&quot;,
+        keyboard-arrow-left: &quot;\e7c2&quot;,
+        keyboard-arrow-right: &quot;\e7c3&quot;,
+        keyboard-arrow-up: &quot;\e7c4&quot;,
+        keyboard-backspace: &quot;\e7c5&quot;,
+        keyboard-capslock: &quot;\e7c6&quot;,
+        keyboard-control: &quot;\e7c7&quot;,
+        keyboard-hide: &quot;\e7c8&quot;,
+        keyboard-return: &quot;\e7c9&quot;,
+        keyboard-tab: &quot;\e7ca&quot;,
+        keyboard-voice: &quot;\e7cb&quot;,
+        laptop: &quot;\e7cc&quot;,
+        laptop-chromebook: &quot;\e7cd&quot;,
+        laptop-mac: &quot;\e7ce&quot;,
+        laptop-windows: &quot;\e7cf&quot;,
+        memory: &quot;\e7d0&quot;,
+        mouse: &quot;\e7d1&quot;,
+        phone-android: &quot;\e7d2&quot;,
+        phone-iphone: &quot;\e7d3&quot;,
+        phonelink: &quot;\e7d4&quot;,
+        phonelink-off: &quot;\e7d5&quot;,
+        security: &quot;\e7d6&quot;,
+        sim-card: &quot;\e7d7&quot;,
+        smartphone: &quot;\e7d8&quot;,
+        speaker: &quot;\e7d9&quot;,
+        tablet: &quot;\e7da&quot;,
+        tablet-android: &quot;\e7db&quot;,
+        tablet-mac: &quot;\e7dc&quot;,
+        tv: &quot;\e7dd&quot;,
+        watch: &quot;\e7de&quot;,
+        add-to-photos: &quot;\e7df&quot;,
+        adjust: &quot;\e7e0&quot;,
+        assistant-photo: &quot;\e7e1&quot;,
+        audiotrack: &quot;\e7e2&quot;,
+        blur-circular: &quot;\e7e3&quot;,
+        blur-linear: &quot;\e7e4&quot;,
+        blur-off: &quot;\e7e5&quot;,
+        blur-on: &quot;\e7e6&quot;,
+        brightness-1: &quot;\e7e7&quot;,
+        brightness-2: &quot;\e7e8&quot;,
+        brightness-3: &quot;\e7e9&quot;,
+        brightness-4: &quot;\e7ea&quot;,
+        brightness-5: &quot;\e7eb&quot;,
+        brightness-6: &quot;\e7ec&quot;,
+        brightness-7: &quot;\e7ed&quot;,
+        brush: &quot;\e7ee&quot;,
+        camera: &quot;\e7ef&quot;,
+        camera-alt: &quot;\e7f0&quot;,
+        camera-front: &quot;\e7f1&quot;,
+        camera-rear: &quot;\e7f2&quot;,
+        camera-roll: &quot;\e7f3&quot;,
+        center-focus-strong: &quot;\e7f4&quot;,
+        center-focus-weak: &quot;\e7f5&quot;,
+        collections: &quot;\e7f6&quot;,
+        color-lens: &quot;\e7f7&quot;,
+        colorize: &quot;\e7f8&quot;,
+        compare: &quot;\e7f9&quot;,
+        control-point: &quot;\e7fa&quot;,
+        control-point-duplicate: &quot;\e7fb&quot;,
+        crop-3-2: &quot;\e7fc&quot;,
+        crop-5-4: &quot;\e7fd&quot;,
+        crop-7-5: &quot;\e7fe&quot;,
+        crop-16-9: &quot;\e7ff&quot;,
+        crop: &quot;\e800&quot;,
+        crop-din: &quot;\e801&quot;,
+        crop-free: &quot;\e802&quot;,
+        crop-landscape: &quot;\e803&quot;,
+        crop-original: &quot;\e804&quot;,
+        crop-portrait: &quot;\e805&quot;,
+        crop-square: &quot;\e806&quot;,
+        dehaze: &quot;\e807&quot;,
+        details: &quot;\e808&quot;,
+        edit: &quot;\e809&quot;,
+        exposure: &quot;\e80a&quot;,
+        exposure-minus-1: &quot;\e80b&quot;,
+        exposure-minus-2: &quot;\e80c&quot;,
+        exposure-plus-1: &quot;\e80d&quot;,
+        exposure-plus-2: &quot;\e80e&quot;,
+        exposure-zero: &quot;\e80f&quot;,
+        filter-1: &quot;\e810&quot;,
+        filter-2: &quot;\e811&quot;,
+        filter-3: &quot;\e812&quot;,
+        filter-4: &quot;\e813&quot;,
+        filter-5: &quot;\e814&quot;,
+        filter-6: &quot;\e815&quot;,
+        filter-7: &quot;\e816&quot;,
+        filter-8: &quot;\e817&quot;,
+        filter-9: &quot;\e818&quot;,
+        filter-9-plus: &quot;\e819&quot;,
+        filter: &quot;\e81a&quot;,
+        filter-b-and-w: &quot;\e81b&quot;,
+        filter-center-focus: &quot;\e81c&quot;,
+        filter-drama: &quot;\e81d&quot;,
+        filter-frames: &quot;\e81e&quot;,
+        filter-hdr: &quot;\e81f&quot;,
+        filter-none: &quot;\e820&quot;,
+        filter-tilt-shift: &quot;\e821&quot;,
+        filter-vintage: &quot;\e822&quot;,
+        flare: &quot;\e823&quot;,
+        flash-auto: &quot;\e824&quot;,
+        flash-off: &quot;\e825&quot;,
+        flash-on: &quot;\e826&quot;,
+        flip: &quot;\e827&quot;,
+        gradient: &quot;\e828&quot;,
+        grain: &quot;\e829&quot;,
+        grid-off: &quot;\e82a&quot;,
+        grid-on: &quot;\e82b&quot;,
+        hdr-off: &quot;\e82c&quot;,
+        hdr-on: &quot;\e82d&quot;,
+        hdr-strong: &quot;\e82e&quot;,
+        hdr-weak: &quot;\e82f&quot;,
+        healing: &quot;\e830&quot;,
+        image: &quot;\e831&quot;,
+        image-aspect-ratio: &quot;\e832&quot;,
+        iso: &quot;\e833&quot;,
+        landscape: &quot;\e834&quot;,
+        leak-add: &quot;\e835&quot;,
+        leak-remove: &quot;\e836&quot;,
+        lens: &quot;\e837&quot;,
+        looks-3: &quot;\e838&quot;,
+        looks-4: &quot;\e839&quot;,
+        looks-5: &quot;\e83a&quot;,
+        looks-6: &quot;\e83b&quot;,
+        looks: &quot;\e83c&quot;,
+        looks-one: &quot;\e83d&quot;,
+        looks-two: &quot;\e83e&quot;,
+        loupe: &quot;\e83f&quot;,
+        movie-creation: &quot;\e840&quot;,
+        nature: &quot;\e841&quot;,
+        nature-people: &quot;\e842&quot;,
+        navigate-before: &quot;\e843&quot;,
+        navigate-next: &quot;\e844&quot;,
+        palette: &quot;\e845&quot;,
+        panorama: &quot;\e846&quot;,
+        panorama-fisheye: &quot;\e847&quot;,
+        panorama-horizontal: &quot;\e848&quot;,
+        panorama-vertical: &quot;\e849&quot;,
+        panorama-wide-angle: &quot;\e84a&quot;,
+        photo: &quot;\e84b&quot;,
+        photo-album: &quot;\e84c&quot;,
+        photo-camera: &quot;\e84d&quot;,
+        photo-library: &quot;\e84e&quot;,
+        portrait: &quot;\e84f&quot;,
+        remove-red-eye: &quot;\e850&quot;,
+        rotate-left: &quot;\e851&quot;,
+        rotate-right: &quot;\e852&quot;,
+        slideshow: &quot;\e853&quot;,
+        straighten: &quot;\e854&quot;,
+        style: &quot;\e855&quot;,
+        switch-camera: &quot;\e856&quot;,
+        switch-video: &quot;\e857&quot;,
+        tag-faces: &quot;\e858&quot;,
+        texture: &quot;\e859&quot;,
+        timelapse: &quot;\e85a&quot;,
+        timer-3: &quot;\e85b&quot;,
+        timer-10: &quot;\e85c&quot;,
+        timer: &quot;\e85d&quot;,
+        timer-auto: &quot;\e85e&quot;,
+        timer-off: &quot;\e85f&quot;,
+        tonality: &quot;\e860&quot;,
+        transform: &quot;\e861&quot;,
+        tune: &quot;\e862&quot;,
+        wb-auto: &quot;\e863&quot;,
+        wb-cloudy: &quot;\e864&quot;,
+        wb-incandescent: &quot;\e865&quot;,
+        wb-irradescent: &quot;\e866&quot;,
+        wb-sunny: &quot;\e867&quot;,
+        beenhere: &quot;\e868&quot;,
+        directions: &quot;\e869&quot;,
+        directions-bike: &quot;\e86a&quot;,
+        directions-bus: &quot;\e86b&quot;,
+        directions-car: &quot;\e86c&quot;,
+        directions-ferry: &quot;\e86d&quot;,
+        directions-subway: &quot;\e86e&quot;,
+        directions-train: &quot;\e86f&quot;,
+        directions-transit: &quot;\e870&quot;,
+        directions-walk: &quot;\e871&quot;,
+        flight: &quot;\e872&quot;,
+        hotel: &quot;\e873&quot;,
+        layers: &quot;\e874&quot;,
+        layers-clear: &quot;\e875&quot;,
+        local-airport: &quot;\e876&quot;,
+        local-atm: &quot;\e877&quot;,
+        local-attraction: &quot;\e878&quot;,
+        local-bar: &quot;\e879&quot;,
+        local-cafe: &quot;\e87a&quot;,
+        local-car-wash: &quot;\e87b&quot;,
+        local-convenience-store: &quot;\e87c&quot;,
+        local-drink: &quot;\e87d&quot;,
+        local-florist: &quot;\e87e&quot;,
+        local-gas-station: &quot;\e87f&quot;,
+        local-grocery-store: &quot;\e880&quot;,
+        local-hospital: &quot;\e881&quot;,
+        local-hotel: &quot;\e882&quot;,
+        local-laundry-service: &quot;\e883&quot;,
+        local-library: &quot;\e884&quot;,
+        local-mall: &quot;\e885&quot;,
+        local-movies: &quot;\e886&quot;,
+        local-offer: &quot;\e887&quot;,
+        local-parking: &quot;\e888&quot;,
+        local-pharmacy: &quot;\e889&quot;,
+        local-phone: &quot;\e88a&quot;,
+        local-pizza: &quot;\e88b&quot;,
+        local-play: &quot;\e88c&quot;,
+        local-post-office: &quot;\e88d&quot;,
+        local-print-shop: &quot;\e88e&quot;,
+        local-restaurant: &quot;\e88f&quot;,
+        local-see: &quot;\e890&quot;,
+        local-shipping: &quot;\e891&quot;,
+        local-taxi: &quot;\e892&quot;,
+        location-history: &quot;\e893&quot;,
+        map: &quot;\e894&quot;,
+        my-location: &quot;\e895&quot;,
+        navigation: &quot;\e896&quot;,
+        pin-drop: &quot;\e897&quot;,
+        place: &quot;\e898&quot;,
+        rate-review: &quot;\e899&quot;,
+        restaurant-menu: &quot;\e89a&quot;,
+        satellite: &quot;\e89b&quot;,
+        store-mall-directory: &quot;\e89c&quot;,
+        terrain: &quot;\e89d&quot;,
+        traff: &quot;\e89e&quot;,
+        apps: &quot;\e89f&quot;,
+        arrow-back: &quot;\e8a0&quot;,
+        arrow-drop-down: &quot;\e8a1&quot;,
+        arrow-drop-down-circle: &quot;\e8a2&quot;,
+        arrow-drop-up: &quot;\e8a3&quot;,
+        arrow-forward: &quot;\e8a4&quot;,
+        cancel: &quot;\e8a5&quot;,
+        check: &quot;\e8a6&quot;,
+        chevron-left: &quot;\e8a7&quot;,
+        chevron-right: &quot;\e8a8&quot;,
+        close: &quot;\e8a9&quot;,
+        expand-less: &quot;\e8aa&quot;,
+        expand-more: &quot;\e8ab&quot;,
+        fullscreen: &quot;\e8ac&quot;,
+        fullscreen-exit: &quot;\e8ad&quot;,
+        menu: &quot;\e8ae&quot;,
+        more-horiz: &quot;\e8af&quot;,
+        more-vert: &quot;\e8b0&quot;,
+        refresh: &quot;\e8b1&quot;,
+        unfold-less: &quot;\e8b2&quot;,
+        unfold-more: &quot;\e8b3&quot;,
+        adb: &quot;\e8b4&quot;,
+        bluetooth-audio: &quot;\e8b5&quot;,
+        disc-full: &quot;\e8b6&quot;,
+        dnd-forwardslash: &quot;\e8b7&quot;,
+        do-not-disturb: &quot;\e8b8&quot;,
+        drive-eta: &quot;\e8b9&quot;,
+        event-available: &quot;\e8ba&quot;,
+        event-busy: &quot;\e8bb&quot;,
+        event-note: &quot;\e8bc&quot;,
+        folder-special: &quot;\e8bd&quot;,
+        mms: &quot;\e8be&quot;,
+        more: &quot;\e8bf&quot;,
+        network-locked: &quot;\e8c0&quot;,
+        phone-bluetooth-speaker: &quot;\e8c1&quot;,
+        phone-forwarded: &quot;\e8c2&quot;,
+        phone-in-talk: &quot;\e8c3&quot;,
+        phone-locked: &quot;\e8c4&quot;,
+        phone-missed: &quot;\e8c5&quot;,
+        phone-paused: &quot;\e8c6&quot;,
+        play-download: &quot;\e8c7&quot;,
+        play-install: &quot;\e8c8&quot;,
+        sd-card: &quot;\e8c9&quot;,
+        sim-card-alert: &quot;\e8ca&quot;,
+        sms: &quot;\e8cb&quot;,
+        sms-failed: &quot;\e8cc&quot;,
+        sync: &quot;\e8cd&quot;,
+        sync-disabled: &quot;\e8ce&quot;,
+        sync-problem: &quot;\e8cf&quot;,
+        system-update: &quot;\e8d0&quot;,
+        tap-and-play: &quot;\e8d1&quot;,
+        time-to-leave: &quot;\e8d2&quot;,
+        vibration: &quot;\e8d3&quot;,
+        voice-chat: &quot;\e8d4&quot;,
+        vpn-lock: &quot;\e8d5&quot;,
+        cake: &quot;\e8d6&quot;,
+        domain: &quot;\e8d7&quot;,
+        group: &quot;\e8d8&quot;,
+        group-add: &quot;\e8d9&quot;,
+        location-city: &quot;\e8da&quot;,
+        mood: &quot;\e8db&quot;,
+        &quot;notifications&quot;: &quot;\e8dc&quot;,
+        &quot;notifications-none&quot;: &quot;\e8dd&quot;,
+        &quot;notifications-off&quot;: &quot;\e8de&quot;,
+        &quot;notifications-on&quot;: &quot;\e8df&quot;,
+        &quot;notifications-paused&quot;: &quot;\e8e0&quot;,
+        pages: &quot;\e8e1&quot;,
+        party-mode: &quot;\e8e2&quot;,
+        people: &quot;\e8e3&quot;,
+        people-outline: &quot;\e8e4&quot;,
+        person: &quot;\e8e5&quot;,
+        person-add: &quot;\e8e6&quot;,
+        person-outline: &quot;\e8e7&quot;,
+        plus-one: &quot;\e8e8&quot;,
+        poll: &quot;\e8e9&quot;,
+        publ: &quot;\e8ea&quot;,
+        school: &quot;\e8eb&quot;,
+        share: &quot;\e8ec&quot;,
+        whatshot: &quot;\e8ed&quot;,
+        check-box: &quot;\e8ee&quot;,
+        check-box-outline-blank: &quot;\e8ef&quot;,
+        radio-button-off: &quot;\e8f0&quot;,
+        radio-button-on: &quot;\e8f1&quot;,
+        star: &quot;\e8f2&quot;,
+        star-half: &quot;\e8f3&quot;,
+        star-outline: &quot;\e8f4&quot;
+
+);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Material Design Icons Map</p></div></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --><span class="project-info__name">Material-design-icons</span><!-- Version --> <span class="project-info__version">- v1.0.0</span><!-- License --> <span class="project-info__license">, under MIT</span></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>

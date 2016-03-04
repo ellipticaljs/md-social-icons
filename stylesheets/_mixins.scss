@@ -1,0 +1,25 @@
+
+/// convenience class for icon font sizes
+/// @access public
+@mixin md-social-icon-sizes(){
+  .md{
+    &.size-24{
+      font-size:24px;
+      height:24px !important;
+      width:24px !important;
+    }
+    &.size-48{
+      font-size:48px;
+      height:48px !important;
+      width:48px !important;
+    }
+    &.size-72{
+      height:72px !important;
+      width:72px !important;
+    }
+    &.size-96{
+      height:96px !important;
+      width:96px !important;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "md-social-icons",
+  "description": "Material Design Social Icons",
+  "version": "1.0.0",
+  "author": "S. Francis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ellipticaljs/md-social-icons.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "sassdoc": "^2.1.15"
+  }
+}

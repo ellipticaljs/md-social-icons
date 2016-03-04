@@ -1,0 +1,31 @@
+{
+  "name": "md-social-icons",
+  "description": "Material Design Social Icons",
+  "version":"1.0.0",
+  "main": "dist/md.social.icons.css",
+  "authors": [
+    "S. Francis"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "material",
+    "design",
+    "icons"
+  ],
+  "homepage": "https://github.com/ellipticaljs/material-design-social-icons",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "_index.scss",
+    "gulpfile.js",
+    "docs",
+    "stylesheets",
+    "package.json",
+    ".gitignore",
+    "sassdoc"
+  ]
+}
